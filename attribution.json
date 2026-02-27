@@ -1,0 +1,3936 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:c5e972a5-9955-4b8a-af2f-0504215af72a",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-02-24T13:49:03Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "Snyk",
+          "name": "snyk-cli",
+          "version": "1.1302.1"
+        }
+      ],
+      "services": [
+        {
+          "provider": { "name": "Snyk" },
+          "name": "SBOM Export API",
+          "version": "v1.124.6"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "1-NodeGoat2",
+      "type": "application",
+      "name": "NodeGoat2"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "1-owasp-nodejs-goat@1.3.0",
+      "type": "library",
+      "name": "owasp-nodejs-goat",
+      "version": "1.3.0",
+      "purl": "pkg:npm/owasp-nodejs-goat@1.3.0"
+    },
+    {
+      "bom-ref": "2-bcrypt-nodejs@0.0.3",
+      "type": "library",
+      "name": "bcrypt-nodejs",
+      "version": "0.0.3",
+      "purl": "pkg:npm/bcrypt-nodejs@0.0.3"
+    },
+    {
+      "bom-ref": "3-body-parser@1.18.3",
+      "type": "library",
+      "name": "body-parser",
+      "version": "1.18.3",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/body-parser@1.18.3"
+    },
+    {
+      "bom-ref": "4-bytes@3.0.0",
+      "type": "library",
+      "name": "bytes",
+      "version": "3.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/bytes@3.0.0"
+    },
+    {
+      "bom-ref": "5-content-type@1.0.4",
+      "type": "library",
+      "name": "content-type",
+      "version": "1.0.4",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/content-type@1.0.4"
+    },
+    {
+      "bom-ref": "6-debug@2.6.9",
+      "type": "library",
+      "name": "debug",
+      "version": "2.6.9",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/debug@2.6.9"
+    },
+    {
+      "bom-ref": "7-ms@2.0.0",
+      "type": "library",
+      "name": "ms",
+      "version": "2.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/ms@2.0.0"
+    },
+    {
+      "bom-ref": "8-depd@1.1.2",
+      "type": "library",
+      "name": "depd",
+      "version": "1.1.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/depd@1.1.2"
+    },
+    {
+      "bom-ref": "9-http-errors@1.6.3",
+      "type": "library",
+      "name": "http-errors",
+      "version": "1.6.3",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/http-errors@1.6.3"
+    },
+    {
+      "bom-ref": "10-inherits@2.0.3",
+      "type": "library",
+      "name": "inherits",
+      "version": "2.0.3",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/inherits@2.0.3"
+    },
+    {
+      "bom-ref": "11-setprototypeof@1.1.0",
+      "type": "library",
+      "name": "setprototypeof",
+      "version": "1.1.0",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/setprototypeof@1.1.0"
+    },
+    {
+      "bom-ref": "12-statuses@1.5.0",
+      "type": "library",
+      "name": "statuses",
+      "version": "1.5.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/statuses@1.5.0"
+    },
+    {
+      "bom-ref": "13-iconv-lite@0.4.23",
+      "type": "library",
+      "name": "iconv-lite",
+      "version": "0.4.23",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/iconv-lite@0.4.23"
+    },
+    {
+      "bom-ref": "14-safer-buffer@2.1.2",
+      "type": "library",
+      "name": "safer-buffer",
+      "version": "2.1.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/safer-buffer@2.1.2"
+    },
+    {
+      "bom-ref": "15-on-finished@2.3.0",
+      "type": "library",
+      "name": "on-finished",
+      "version": "2.3.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/on-finished@2.3.0"
+    },
+    {
+      "bom-ref": "16-ee-first@1.1.1",
+      "type": "library",
+      "name": "ee-first",
+      "version": "1.1.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/ee-first@1.1.1"
+    },
+    {
+      "bom-ref": "17-qs@6.5.2",
+      "type": "library",
+      "name": "qs",
+      "version": "6.5.2",
+      "licenses": [{ "expression": "BSD-3-Clause" }],
+      "purl": "pkg:npm/qs@6.5.2"
+    },
+    {
+      "bom-ref": "18-raw-body@2.3.3",
+      "type": "library",
+      "name": "raw-body",
+      "version": "2.3.3",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/raw-body@2.3.3"
+    },
+    {
+      "bom-ref": "19-unpipe@1.0.0",
+      "type": "library",
+      "name": "unpipe",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/unpipe@1.0.0"
+    },
+    {
+      "bom-ref": "20-type-is@1.6.16",
+      "type": "library",
+      "name": "type-is",
+      "version": "1.6.16",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/type-is@1.6.16"
+    },
+    {
+      "bom-ref": "21-media-typer@0.3.0",
+      "type": "library",
+      "name": "media-typer",
+      "version": "0.3.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/media-typer@0.3.0"
+    },
+    {
+      "bom-ref": "22-mime-types@2.1.21",
+      "type": "library",
+      "name": "mime-types",
+      "version": "2.1.21",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/mime-types@2.1.21"
+    },
+    {
+      "bom-ref": "23-mime-db@1.37.0",
+      "type": "library",
+      "name": "mime-db",
+      "version": "1.37.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/mime-db@1.37.0"
+    },
+    {
+      "bom-ref": "24-consolidate@0.14.5",
+      "type": "library",
+      "name": "consolidate",
+      "version": "0.14.5",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/consolidate@0.14.5"
+    },
+    {
+      "bom-ref": "25-bluebird@3.5.3",
+      "type": "library",
+      "name": "bluebird",
+      "version": "3.5.3",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/bluebird@3.5.3"
+    },
+    {
+      "bom-ref": "26-csurf@1.9.0",
+      "type": "library",
+      "name": "csurf",
+      "version": "1.9.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/csurf@1.9.0"
+    },
+    {
+      "bom-ref": "27-cookie@0.3.1",
+      "type": "library",
+      "name": "cookie",
+      "version": "0.3.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/cookie@0.3.1"
+    },
+    {
+      "bom-ref": "28-cookie-signature@1.0.6",
+      "type": "library",
+      "name": "cookie-signature",
+      "version": "1.0.6",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/cookie-signature@1.0.6"
+    },
+    {
+      "bom-ref": "29-csrf@3.0.6",
+      "type": "library",
+      "name": "csrf",
+      "version": "3.0.6",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/csrf@3.0.6"
+    },
+    {
+      "bom-ref": "30-rndm@1.2.0",
+      "type": "library",
+      "name": "rndm",
+      "version": "1.2.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/rndm@1.2.0"
+    },
+    {
+      "bom-ref": "31-tsscmp@1.0.5",
+      "type": "library",
+      "name": "tsscmp",
+      "version": "1.0.5",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/tsscmp@1.0.5"
+    },
+    {
+      "bom-ref": "32-uid-safe@2.1.4",
+      "type": "library",
+      "name": "uid-safe",
+      "version": "2.1.4",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/uid-safe@2.1.4"
+    },
+    {
+      "bom-ref": "33-random-bytes@1.0.0",
+      "type": "library",
+      "name": "random-bytes",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/random-bytes@1.0.0"
+    },
+    {
+      "bom-ref": "34-http-errors@1.5.1",
+      "type": "library",
+      "name": "http-errors",
+      "version": "1.5.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/http-errors@1.5.1"
+    },
+    {
+      "bom-ref": "35-setprototypeof@1.0.2",
+      "type": "library",
+      "name": "setprototypeof",
+      "version": "1.0.2",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/setprototypeof@1.0.2"
+    },
+    {
+      "bom-ref": "36-dont-sniff-mimetype@1.0.0",
+      "type": "library",
+      "name": "dont-sniff-mimetype",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/dont-sniff-mimetype@1.0.0"
+    },
+    {
+      "bom-ref": "37-express@4.16.4",
+      "type": "library",
+      "name": "express",
+      "version": "4.16.4",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/express@4.16.4"
+    },
+    {
+      "bom-ref": "38-accepts@1.3.5",
+      "type": "library",
+      "name": "accepts",
+      "version": "1.3.5",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/accepts@1.3.5"
+    },
+    {
+      "bom-ref": "39-negotiator@0.6.1",
+      "type": "library",
+      "name": "negotiator",
+      "version": "0.6.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/negotiator@0.6.1"
+    },
+    {
+      "bom-ref": "40-array-flatten@1.1.1",
+      "type": "library",
+      "name": "array-flatten",
+      "version": "1.1.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/array-flatten@1.1.1"
+    },
+    {
+      "bom-ref": "41-content-disposition@0.5.2",
+      "type": "library",
+      "name": "content-disposition",
+      "version": "0.5.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/content-disposition@0.5.2"
+    },
+    {
+      "bom-ref": "42-encodeurl@1.0.2",
+      "type": "library",
+      "name": "encodeurl",
+      "version": "1.0.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/encodeurl@1.0.2"
+    },
+    {
+      "bom-ref": "43-escape-html@1.0.3",
+      "type": "library",
+      "name": "escape-html",
+      "version": "1.0.3",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/escape-html@1.0.3"
+    },
+    {
+      "bom-ref": "44-etag@1.8.1",
+      "type": "library",
+      "name": "etag",
+      "version": "1.8.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/etag@1.8.1"
+    },
+    {
+      "bom-ref": "45-finalhandler@1.1.1",
+      "type": "library",
+      "name": "finalhandler",
+      "version": "1.1.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/finalhandler@1.1.1"
+    },
+    {
+      "bom-ref": "46-parseurl@1.3.2",
+      "type": "library",
+      "name": "parseurl",
+      "version": "1.3.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/parseurl@1.3.2"
+    },
+    {
+      "bom-ref": "47-statuses@1.4.0",
+      "type": "library",
+      "name": "statuses",
+      "version": "1.4.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/statuses@1.4.0"
+    },
+    {
+      "bom-ref": "48-fresh@0.5.2",
+      "type": "library",
+      "name": "fresh",
+      "version": "0.5.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/fresh@0.5.2"
+    },
+    {
+      "bom-ref": "49-merge-descriptors@1.0.1",
+      "type": "library",
+      "name": "merge-descriptors",
+      "version": "1.0.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/merge-descriptors@1.0.1"
+    },
+    {
+      "bom-ref": "50-methods@1.1.2",
+      "type": "library",
+      "name": "methods",
+      "version": "1.1.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/methods@1.1.2"
+    },
+    {
+      "bom-ref": "51-path-to-regexp@0.1.7",
+      "type": "library",
+      "name": "path-to-regexp",
+      "version": "0.1.7",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/path-to-regexp@0.1.7"
+    },
+    {
+      "bom-ref": "52-proxy-addr@2.0.4",
+      "type": "library",
+      "name": "proxy-addr",
+      "version": "2.0.4",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/proxy-addr@2.0.4"
+    },
+    {
+      "bom-ref": "53-forwarded@0.1.2",
+      "type": "library",
+      "name": "forwarded",
+      "version": "0.1.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/forwarded@0.1.2"
+    },
+    {
+      "bom-ref": "54-ipaddr.js@1.8.0",
+      "type": "library",
+      "name": "ipaddr.js",
+      "version": "1.8.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/ipaddr.js@1.8.0"
+    },
+    {
+      "bom-ref": "55-range-parser@1.2.0",
+      "type": "library",
+      "name": "range-parser",
+      "version": "1.2.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/range-parser@1.2.0"
+    },
+    {
+      "bom-ref": "56-safe-buffer@5.1.2",
+      "type": "library",
+      "name": "safe-buffer",
+      "version": "5.1.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/safe-buffer@5.1.2"
+    },
+    {
+      "bom-ref": "57-send@0.16.2",
+      "type": "library",
+      "name": "send",
+      "version": "0.16.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/send@0.16.2"
+    },
+    {
+      "bom-ref": "58-destroy@1.0.4",
+      "type": "library",
+      "name": "destroy",
+      "version": "1.0.4",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/destroy@1.0.4"
+    },
+    {
+      "bom-ref": "59-mime@1.4.1",
+      "type": "library",
+      "name": "mime",
+      "version": "1.4.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/mime@1.4.1"
+    },
+    {
+      "bom-ref": "60-serve-static@1.13.2",
+      "type": "library",
+      "name": "serve-static",
+      "version": "1.13.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/serve-static@1.13.2"
+    },
+    {
+      "bom-ref": "61-utils-merge@1.0.1",
+      "type": "library",
+      "name": "utils-merge",
+      "version": "1.0.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/utils-merge@1.0.1"
+    },
+    {
+      "bom-ref": "62-vary@1.1.2",
+      "type": "library",
+      "name": "vary",
+      "version": "1.1.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/vary@1.1.2"
+    },
+    {
+      "bom-ref": "63-express-session@1.15.6",
+      "type": "library",
+      "name": "express-session",
+      "version": "1.15.6",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/express-session@1.15.6"
+    },
+    {
+      "bom-ref": "64-crc@3.4.4",
+      "type": "library",
+      "name": "crc",
+      "version": "3.4.4",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/crc@3.4.4"
+    },
+    {
+      "bom-ref": "65-on-headers@1.0.1",
+      "type": "library",
+      "name": "on-headers",
+      "version": "1.0.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/on-headers@1.0.1"
+    },
+    {
+      "bom-ref": "66-uid-safe@2.1.5",
+      "type": "library",
+      "name": "uid-safe",
+      "version": "2.1.5",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/uid-safe@2.1.5"
+    },
+    {
+      "bom-ref": "67-forever@2.0.0",
+      "type": "library",
+      "name": "forever",
+      "version": "2.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/forever@2.0.0"
+    },
+    {
+      "bom-ref": "68-async@1.5.2",
+      "type": "library",
+      "name": "async",
+      "version": "1.5.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/async@1.5.2"
+    },
+    {
+      "bom-ref": "69-cliff@0.1.10",
+      "type": "library",
+      "name": "cliff",
+      "version": "0.1.10",
+      "purl": "pkg:npm/cliff@0.1.10"
+    },
+    {
+      "bom-ref": "70-colors@1.0.3",
+      "type": "library",
+      "name": "colors",
+      "version": "1.0.3",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/colors@1.0.3"
+    },
+    {
+      "bom-ref": "71-eyes@0.1.8",
+      "type": "library",
+      "name": "eyes",
+      "version": "0.1.8",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/eyes@0.1.8"
+    },
+    {
+      "bom-ref": "72-winston@0.8.3",
+      "type": "library",
+      "name": "winston",
+      "version": "0.8.3",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/winston@0.8.3"
+    },
+    {
+      "bom-ref": "73-async@0.2.10",
+      "type": "library",
+      "name": "async",
+      "version": "0.2.10",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/async@0.2.10"
+    },
+    {
+      "bom-ref": "74-colors@0.6.2",
+      "type": "library",
+      "name": "colors",
+      "version": "0.6.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/colors@0.6.2"
+    },
+    {
+      "bom-ref": "75-cycle@1.0.3",
+      "type": "library",
+      "name": "cycle",
+      "version": "1.0.3",
+      "licenses": [{ "expression": "Public-Domain" }],
+      "purl": "pkg:npm/cycle@1.0.3"
+    },
+    {
+      "bom-ref": "76-isstream@0.1.2",
+      "type": "library",
+      "name": "isstream",
+      "version": "0.1.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/isstream@0.1.2"
+    },
+    {
+      "bom-ref": "77-pkginfo@0.3.1",
+      "type": "library",
+      "name": "pkginfo",
+      "version": "0.3.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/pkginfo@0.3.1"
+    },
+    {
+      "bom-ref": "78-stack-trace@0.0.10",
+      "type": "library",
+      "name": "stack-trace",
+      "version": "0.0.10",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/stack-trace@0.0.10"
+    },
+    {
+      "bom-ref": "79-clone@2.1.2",
+      "type": "library",
+      "name": "clone",
+      "version": "2.1.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/clone@2.1.2"
+    },
+    {
+      "bom-ref": "80-flatiron@0.4.3",
+      "type": "library",
+      "name": "flatiron",
+      "version": "0.4.3",
+      "purl": "pkg:npm/flatiron@0.4.3"
+    },
+    {
+      "bom-ref": "81-broadway@0.3.6",
+      "type": "library",
+      "name": "broadway",
+      "version": "0.3.6",
+      "licenses": [{ "expression": "Unknown" }],
+      "purl": "pkg:npm/broadway@0.3.6"
+    },
+    {
+      "bom-ref": "82-cliff@0.1.9",
+      "type": "library",
+      "name": "cliff",
+      "version": "0.1.9",
+      "purl": "pkg:npm/cliff@0.1.9"
+    },
+    {
+      "bom-ref": "83-eventemitter2@0.4.14",
+      "type": "library",
+      "name": "eventemitter2",
+      "version": "0.4.14",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/eventemitter2@0.4.14"
+    },
+    {
+      "bom-ref": "84-nconf@0.6.9",
+      "type": "library",
+      "name": "nconf",
+      "version": "0.6.9",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/nconf@0.6.9"
+    },
+    {
+      "bom-ref": "85-async@0.2.9",
+      "type": "library",
+      "name": "async",
+      "version": "0.2.9",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/async@0.2.9"
+    },
+    {
+      "bom-ref": "86-ini@1.3.5",
+      "type": "library",
+      "name": "ini",
+      "version": "1.3.5",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/ini@1.3.5"
+    },
+    {
+      "bom-ref": "87-optimist@0.6.0",
+      "type": "library",
+      "name": "optimist",
+      "version": "0.6.0",
+      "licenses": [{ "expression": "(MIT OR X11)" }],
+      "purl": "pkg:npm/optimist@0.6.0"
+    },
+    {
+      "bom-ref": "88-minimist@0.0.10",
+      "type": "library",
+      "name": "minimist",
+      "version": "0.0.10",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/minimist@0.0.10"
+    },
+    {
+      "bom-ref": "89-wordwrap@0.0.3",
+      "type": "library",
+      "name": "wordwrap",
+      "version": "0.0.3",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/wordwrap@0.0.3"
+    },
+    {
+      "bom-ref": "90-utile@0.2.1",
+      "type": "library",
+      "name": "utile",
+      "version": "0.2.1",
+      "purl": "pkg:npm/utile@0.2.1"
+    },
+    {
+      "bom-ref": "91-deep-equal@0.2.2",
+      "type": "library",
+      "name": "deep-equal",
+      "version": "0.2.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/deep-equal@0.2.2"
+    },
+    {
+      "bom-ref": "92-i@0.3.6",
+      "type": "library",
+      "name": "i",
+      "version": "0.3.6",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/i@0.3.6"
+    },
+    {
+      "bom-ref": "93-mkdirp@0.5.1",
+      "type": "library",
+      "name": "mkdirp",
+      "version": "0.5.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/mkdirp@0.5.1"
+    },
+    {
+      "bom-ref": "94-minimist@0.0.8",
+      "type": "library",
+      "name": "minimist",
+      "version": "0.0.8",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/minimist@0.0.8"
+    },
+    {
+      "bom-ref": "95-ncp@0.4.2",
+      "type": "library",
+      "name": "ncp",
+      "version": "0.4.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/ncp@0.4.2"
+    },
+    {
+      "bom-ref": "96-rimraf@2.6.3",
+      "type": "library",
+      "name": "rimraf",
+      "version": "2.6.3",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/rimraf@2.6.3"
+    },
+    {
+      "bom-ref": "97-glob@7.1.3",
+      "type": "library",
+      "name": "glob",
+      "version": "7.1.3",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/glob@7.1.3"
+    },
+    {
+      "bom-ref": "98-fs.realpath@1.0.0",
+      "type": "library",
+      "name": "fs.realpath",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/fs.realpath@1.0.0"
+    },
+    {
+      "bom-ref": "99-inflight@1.0.6",
+      "type": "library",
+      "name": "inflight",
+      "version": "1.0.6",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/inflight@1.0.6"
+    },
+    {
+      "bom-ref": "100-once@1.4.0",
+      "type": "library",
+      "name": "once",
+      "version": "1.4.0",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/once@1.4.0"
+    },
+    {
+      "bom-ref": "101-wrappy@1.0.2",
+      "type": "library",
+      "name": "wrappy",
+      "version": "1.0.2",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/wrappy@1.0.2"
+    },
+    {
+      "bom-ref": "102-minimatch@3.0.4",
+      "type": "library",
+      "name": "minimatch",
+      "version": "3.0.4",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/minimatch@3.0.4"
+    },
+    {
+      "bom-ref": "103-brace-expansion@1.1.11",
+      "type": "library",
+      "name": "brace-expansion",
+      "version": "1.1.11",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/brace-expansion@1.1.11"
+    },
+    {
+      "bom-ref": "104-balanced-match@1.0.0",
+      "type": "library",
+      "name": "balanced-match",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/balanced-match@1.0.0"
+    },
+    {
+      "bom-ref": "105-concat-map@0.0.1",
+      "type": "library",
+      "name": "concat-map",
+      "version": "0.0.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/concat-map@0.0.1"
+    },
+    {
+      "bom-ref": "106-path-is-absolute@1.0.1",
+      "type": "library",
+      "name": "path-is-absolute",
+      "version": "1.0.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/path-is-absolute@1.0.1"
+    },
+    {
+      "bom-ref": "107-winston@0.8.0",
+      "type": "library",
+      "name": "winston",
+      "version": "0.8.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/winston@0.8.0"
+    },
+    {
+      "bom-ref": "108-director@1.2.7",
+      "type": "library",
+      "name": "director",
+      "version": "1.2.7",
+      "purl": "pkg:npm/director@1.2.7"
+    },
+    {
+      "bom-ref": "109-prompt@0.2.14",
+      "type": "library",
+      "name": "prompt",
+      "version": "0.2.14",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/prompt@0.2.14"
+    },
+    {
+      "bom-ref": "110-read@1.0.7",
+      "type": "library",
+      "name": "read",
+      "version": "1.0.7",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/read@1.0.7"
+    },
+    {
+      "bom-ref": "111-mute-stream@0.0.8",
+      "type": "library",
+      "name": "mute-stream",
+      "version": "0.0.8",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/mute-stream@0.0.8"
+    },
+    {
+      "bom-ref": "112-revalidator@0.1.8",
+      "type": "library",
+      "name": "revalidator",
+      "version": "0.1.8",
+      "licenses": [{ "expression": "Apache-2.0" }],
+      "purl": "pkg:npm/revalidator@0.1.8"
+    },
+    {
+      "bom-ref": "113-forever-monitor@2.0.0",
+      "type": "library",
+      "name": "forever-monitor",
+      "version": "2.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/forever-monitor@2.0.0"
+    },
+    {
+      "bom-ref": "114-chokidar@2.1.8",
+      "type": "library",
+      "name": "chokidar",
+      "version": "2.1.8",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/chokidar@2.1.8"
+    },
+    {
+      "bom-ref": "115-anymatch@2.0.0",
+      "type": "library",
+      "name": "anymatch",
+      "version": "2.0.0",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/anymatch@2.0.0"
+    },
+    {
+      "bom-ref": "116-micromatch@3.1.10",
+      "type": "library",
+      "name": "micromatch",
+      "version": "3.1.10",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/micromatch@3.1.10"
+    },
+    {
+      "bom-ref": "117-arr-diff@4.0.0",
+      "type": "library",
+      "name": "arr-diff",
+      "version": "4.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/arr-diff@4.0.0"
+    },
+    {
+      "bom-ref": "118-array-unique@0.3.2",
+      "type": "library",
+      "name": "array-unique",
+      "version": "0.3.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/array-unique@0.3.2"
+    },
+    {
+      "bom-ref": "119-braces@2.3.2",
+      "type": "library",
+      "name": "braces",
+      "version": "2.3.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/braces@2.3.2"
+    },
+    {
+      "bom-ref": "120-arr-flatten@1.1.0",
+      "type": "library",
+      "name": "arr-flatten",
+      "version": "1.1.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/arr-flatten@1.1.0"
+    },
+    {
+      "bom-ref": "121-extend-shallow@2.0.1",
+      "type": "library",
+      "name": "extend-shallow",
+      "version": "2.0.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/extend-shallow@2.0.1"
+    },
+    {
+      "bom-ref": "122-is-extendable@0.1.1",
+      "type": "library",
+      "name": "is-extendable",
+      "version": "0.1.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/is-extendable@0.1.1"
+    },
+    {
+      "bom-ref": "123-fill-range@4.0.0",
+      "type": "library",
+      "name": "fill-range",
+      "version": "4.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/fill-range@4.0.0"
+    },
+    {
+      "bom-ref": "124-is-number@3.0.0",
+      "type": "library",
+      "name": "is-number",
+      "version": "3.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/is-number@3.0.0"
+    },
+    {
+      "bom-ref": "125-kind-of@3.2.2",
+      "type": "library",
+      "name": "kind-of",
+      "version": "3.2.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/kind-of@3.2.2"
+    },
+    {
+      "bom-ref": "126-is-buffer@1.1.6",
+      "type": "library",
+      "name": "is-buffer",
+      "version": "1.1.6",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/is-buffer@1.1.6"
+    },
+    {
+      "bom-ref": "127-repeat-string@1.6.1",
+      "type": "library",
+      "name": "repeat-string",
+      "version": "1.6.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/repeat-string@1.6.1"
+    },
+    {
+      "bom-ref": "128-to-regex-range@2.1.1",
+      "type": "library",
+      "name": "to-regex-range",
+      "version": "2.1.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/to-regex-range@2.1.1"
+    },
+    {
+      "bom-ref": "129-isobject@3.0.1",
+      "type": "library",
+      "name": "isobject",
+      "version": "3.0.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/isobject@3.0.1"
+    },
+    {
+      "bom-ref": "130-repeat-element@1.1.3",
+      "type": "library",
+      "name": "repeat-element",
+      "version": "1.1.3",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/repeat-element@1.1.3"
+    },
+    {
+      "bom-ref": "131-snapdragon@0.8.2",
+      "type": "library",
+      "name": "snapdragon",
+      "version": "0.8.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/snapdragon@0.8.2"
+    },
+    {
+      "bom-ref": "132-base@0.11.2",
+      "type": "library",
+      "name": "base",
+      "version": "0.11.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/base@0.11.2"
+    },
+    {
+      "bom-ref": "133-cache-base@1.0.1",
+      "type": "library",
+      "name": "cache-base",
+      "version": "1.0.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/cache-base@1.0.1"
+    },
+    {
+      "bom-ref": "134-collection-visit@1.0.0",
+      "type": "library",
+      "name": "collection-visit",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/collection-visit@1.0.0"
+    },
+    {
+      "bom-ref": "135-map-visit@1.0.0",
+      "type": "library",
+      "name": "map-visit",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/map-visit@1.0.0"
+    },
+    {
+      "bom-ref": "136-object-visit@1.0.1",
+      "type": "library",
+      "name": "object-visit",
+      "version": "1.0.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/object-visit@1.0.1"
+    },
+    {
+      "bom-ref": "137-component-emitter@1.2.1",
+      "type": "library",
+      "name": "component-emitter",
+      "version": "1.2.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/component-emitter@1.2.1"
+    },
+    {
+      "bom-ref": "138-get-value@2.0.6",
+      "type": "library",
+      "name": "get-value",
+      "version": "2.0.6",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/get-value@2.0.6"
+    },
+    {
+      "bom-ref": "139-has-value@1.0.0",
+      "type": "library",
+      "name": "has-value",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/has-value@1.0.0"
+    },
+    {
+      "bom-ref": "140-has-values@1.0.0",
+      "type": "library",
+      "name": "has-values",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/has-values@1.0.0"
+    },
+    {
+      "bom-ref": "141-kind-of@4.0.0",
+      "type": "library",
+      "name": "kind-of",
+      "version": "4.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/kind-of@4.0.0"
+    },
+    {
+      "bom-ref": "142-set-value@2.0.0",
+      "type": "library",
+      "name": "set-value",
+      "version": "2.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/set-value@2.0.0"
+    },
+    {
+      "bom-ref": "143-is-plain-object@2.0.4",
+      "type": "library",
+      "name": "is-plain-object",
+      "version": "2.0.4",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/is-plain-object@2.0.4"
+    },
+    {
+      "bom-ref": "144-split-string@3.1.0",
+      "type": "library",
+      "name": "split-string",
+      "version": "3.1.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/split-string@3.1.0"
+    },
+    {
+      "bom-ref": "145-extend-shallow@3.0.2",
+      "type": "library",
+      "name": "extend-shallow",
+      "version": "3.0.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/extend-shallow@3.0.2"
+    },
+    {
+      "bom-ref": "146-assign-symbols@1.0.0",
+      "type": "library",
+      "name": "assign-symbols",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/assign-symbols@1.0.0"
+    },
+    {
+      "bom-ref": "147-is-extendable@1.0.1",
+      "type": "library",
+      "name": "is-extendable",
+      "version": "1.0.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/is-extendable@1.0.1"
+    },
+    {
+      "bom-ref": "148-to-object-path@0.3.0",
+      "type": "library",
+      "name": "to-object-path",
+      "version": "0.3.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/to-object-path@0.3.0"
+    },
+    {
+      "bom-ref": "149-union-value@1.0.0",
+      "type": "library",
+      "name": "union-value",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/union-value@1.0.0"
+    },
+    {
+      "bom-ref": "150-arr-union@3.1.0",
+      "type": "library",
+      "name": "arr-union",
+      "version": "3.1.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/arr-union@3.1.0"
+    },
+    {
+      "bom-ref": "151-set-value@0.4.3",
+      "type": "library",
+      "name": "set-value",
+      "version": "0.4.3",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/set-value@0.4.3"
+    },
+    {
+      "bom-ref": "152-unset-value@1.0.0",
+      "type": "library",
+      "name": "unset-value",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/unset-value@1.0.0"
+    },
+    {
+      "bom-ref": "153-has-value@0.3.1",
+      "type": "library",
+      "name": "has-value",
+      "version": "0.3.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/has-value@0.3.1"
+    },
+    {
+      "bom-ref": "154-has-values@0.1.4",
+      "type": "library",
+      "name": "has-values",
+      "version": "0.1.4",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/has-values@0.1.4"
+    },
+    {
+      "bom-ref": "155-isobject@2.1.0",
+      "type": "library",
+      "name": "isobject",
+      "version": "2.1.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/isobject@2.1.0"
+    },
+    {
+      "bom-ref": "156-isarray@1.0.0",
+      "type": "library",
+      "name": "isarray",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/isarray@1.0.0"
+    },
+    {
+      "bom-ref": "157-class-utils@0.3.6",
+      "type": "library",
+      "name": "class-utils",
+      "version": "0.3.6",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/class-utils@0.3.6"
+    },
+    {
+      "bom-ref": "158-define-property@0.2.5",
+      "type": "library",
+      "name": "define-property",
+      "version": "0.2.5",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/define-property@0.2.5"
+    },
+    {
+      "bom-ref": "159-is-descriptor@0.1.6",
+      "type": "library",
+      "name": "is-descriptor",
+      "version": "0.1.6",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/is-descriptor@0.1.6"
+    },
+    {
+      "bom-ref": "160-is-accessor-descriptor@0.1.6",
+      "type": "library",
+      "name": "is-accessor-descriptor",
+      "version": "0.1.6",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/is-accessor-descriptor@0.1.6"
+    },
+    {
+      "bom-ref": "161-is-data-descriptor@0.1.4",
+      "type": "library",
+      "name": "is-data-descriptor",
+      "version": "0.1.4",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/is-data-descriptor@0.1.4"
+    },
+    {
+      "bom-ref": "162-kind-of@5.1.0",
+      "type": "library",
+      "name": "kind-of",
+      "version": "5.1.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/kind-of@5.1.0"
+    },
+    {
+      "bom-ref": "163-static-extend@0.1.2",
+      "type": "library",
+      "name": "static-extend",
+      "version": "0.1.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/static-extend@0.1.2"
+    },
+    {
+      "bom-ref": "164-object-copy@0.1.0",
+      "type": "library",
+      "name": "object-copy",
+      "version": "0.1.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/object-copy@0.1.0"
+    },
+    {
+      "bom-ref": "165-copy-descriptor@0.1.1",
+      "type": "library",
+      "name": "copy-descriptor",
+      "version": "0.1.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/copy-descriptor@0.1.1"
+    },
+    {
+      "bom-ref": "166-define-property@1.0.0",
+      "type": "library",
+      "name": "define-property",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/define-property@1.0.0"
+    },
+    {
+      "bom-ref": "167-is-descriptor@1.0.2",
+      "type": "library",
+      "name": "is-descriptor",
+      "version": "1.0.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/is-descriptor@1.0.2"
+    },
+    {
+      "bom-ref": "168-is-accessor-descriptor@1.0.0",
+      "type": "library",
+      "name": "is-accessor-descriptor",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/is-accessor-descriptor@1.0.0"
+    },
+    {
+      "bom-ref": "169-kind-of@6.0.2",
+      "type": "library",
+      "name": "kind-of",
+      "version": "6.0.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/kind-of@6.0.2"
+    },
+    {
+      "bom-ref": "170-is-data-descriptor@1.0.0",
+      "type": "library",
+      "name": "is-data-descriptor",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/is-data-descriptor@1.0.0"
+    },
+    {
+      "bom-ref": "171-mixin-deep@1.3.1",
+      "type": "library",
+      "name": "mixin-deep",
+      "version": "1.3.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/mixin-deep@1.3.1"
+    },
+    {
+      "bom-ref": "172-for-in@1.0.2",
+      "type": "library",
+      "name": "for-in",
+      "version": "1.0.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/for-in@1.0.2"
+    },
+    {
+      "bom-ref": "173-pascalcase@0.1.1",
+      "type": "library",
+      "name": "pascalcase",
+      "version": "0.1.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/pascalcase@0.1.1"
+    },
+    {
+      "bom-ref": "174-map-cache@0.2.2",
+      "type": "library",
+      "name": "map-cache",
+      "version": "0.2.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/map-cache@0.2.2"
+    },
+    {
+      "bom-ref": "175-source-map@0.5.7",
+      "type": "library",
+      "name": "source-map",
+      "version": "0.5.7",
+      "licenses": [{ "expression": "BSD-3-Clause" }],
+      "purl": "pkg:npm/source-map@0.5.7"
+    },
+    {
+      "bom-ref": "176-source-map-resolve@0.5.2",
+      "type": "library",
+      "name": "source-map-resolve",
+      "version": "0.5.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/source-map-resolve@0.5.2"
+    },
+    {
+      "bom-ref": "177-atob@2.1.2",
+      "type": "library",
+      "name": "atob",
+      "version": "2.1.2",
+      "licenses": [{ "expression": "(MIT OR Apache-2.0)" }],
+      "purl": "pkg:npm/atob@2.1.2"
+    },
+    {
+      "bom-ref": "178-decode-uri-component@0.2.0",
+      "type": "library",
+      "name": "decode-uri-component",
+      "version": "0.2.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/decode-uri-component@0.2.0"
+    },
+    {
+      "bom-ref": "179-resolve-url@0.2.1",
+      "type": "library",
+      "name": "resolve-url",
+      "version": "0.2.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/resolve-url@0.2.1"
+    },
+    {
+      "bom-ref": "180-source-map-url@0.4.0",
+      "type": "library",
+      "name": "source-map-url",
+      "version": "0.4.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/source-map-url@0.4.0"
+    },
+    {
+      "bom-ref": "181-urix@0.1.0",
+      "type": "library",
+      "name": "urix",
+      "version": "0.1.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/urix@0.1.0"
+    },
+    {
+      "bom-ref": "182-use@3.1.1",
+      "type": "library",
+      "name": "use",
+      "version": "3.1.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/use@3.1.1"
+    },
+    {
+      "bom-ref": "183-snapdragon-node@2.1.1",
+      "type": "library",
+      "name": "snapdragon-node",
+      "version": "2.1.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/snapdragon-node@2.1.1"
+    },
+    {
+      "bom-ref": "184-snapdragon-util@3.0.1",
+      "type": "library",
+      "name": "snapdragon-util",
+      "version": "3.0.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/snapdragon-util@3.0.1"
+    },
+    {
+      "bom-ref": "185-to-regex@3.0.2",
+      "type": "library",
+      "name": "to-regex",
+      "version": "3.0.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/to-regex@3.0.2"
+    },
+    {
+      "bom-ref": "186-define-property@2.0.2",
+      "type": "library",
+      "name": "define-property",
+      "version": "2.0.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/define-property@2.0.2"
+    },
+    {
+      "bom-ref": "187-regex-not@1.0.2",
+      "type": "library",
+      "name": "regex-not",
+      "version": "1.0.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/regex-not@1.0.2"
+    },
+    {
+      "bom-ref": "188-safe-regex@1.1.0",
+      "type": "library",
+      "name": "safe-regex",
+      "version": "1.1.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/safe-regex@1.1.0"
+    },
+    {
+      "bom-ref": "189-ret@0.1.15",
+      "type": "library",
+      "name": "ret",
+      "version": "0.1.15",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/ret@0.1.15"
+    },
+    {
+      "bom-ref": "190-extglob@2.0.4",
+      "type": "library",
+      "name": "extglob",
+      "version": "2.0.4",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/extglob@2.0.4"
+    },
+    {
+      "bom-ref": "191-expand-brackets@2.1.4",
+      "type": "library",
+      "name": "expand-brackets",
+      "version": "2.1.4",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/expand-brackets@2.1.4"
+    },
+    {
+      "bom-ref": "192-posix-character-classes@0.1.1",
+      "type": "library",
+      "name": "posix-character-classes",
+      "version": "0.1.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/posix-character-classes@0.1.1"
+    },
+    {
+      "bom-ref": "193-fragment-cache@0.2.1",
+      "type": "library",
+      "name": "fragment-cache",
+      "version": "0.2.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/fragment-cache@0.2.1"
+    },
+    {
+      "bom-ref": "194-nanomatch@1.2.13",
+      "type": "library",
+      "name": "nanomatch",
+      "version": "1.2.13",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/nanomatch@1.2.13"
+    },
+    {
+      "bom-ref": "195-is-windows@1.0.2",
+      "type": "library",
+      "name": "is-windows",
+      "version": "1.0.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/is-windows@1.0.2"
+    },
+    {
+      "bom-ref": "196-object.pick@1.3.0",
+      "type": "library",
+      "name": "object.pick",
+      "version": "1.3.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/object.pick@1.3.0"
+    },
+    {
+      "bom-ref": "197-normalize-path@2.1.1",
+      "type": "library",
+      "name": "normalize-path",
+      "version": "2.1.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/normalize-path@2.1.1"
+    },
+    {
+      "bom-ref": "198-remove-trailing-separator@1.1.0",
+      "type": "library",
+      "name": "remove-trailing-separator",
+      "version": "1.1.0",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/remove-trailing-separator@1.1.0"
+    },
+    {
+      "bom-ref": "199-async-each@1.0.3",
+      "type": "library",
+      "name": "async-each",
+      "version": "1.0.3",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/async-each@1.0.3"
+    },
+    {
+      "bom-ref": "200-glob-parent@3.1.0",
+      "type": "library",
+      "name": "glob-parent",
+      "version": "3.1.0",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/glob-parent@3.1.0"
+    },
+    {
+      "bom-ref": "201-is-glob@3.1.0",
+      "type": "library",
+      "name": "is-glob",
+      "version": "3.1.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/is-glob@3.1.0"
+    },
+    {
+      "bom-ref": "202-is-extglob@2.1.1",
+      "type": "library",
+      "name": "is-extglob",
+      "version": "2.1.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/is-extglob@2.1.1"
+    },
+    {
+      "bom-ref": "203-path-dirname@1.0.2",
+      "type": "library",
+      "name": "path-dirname",
+      "version": "1.0.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/path-dirname@1.0.2"
+    },
+    {
+      "bom-ref": "204-is-binary-path@1.0.1",
+      "type": "library",
+      "name": "is-binary-path",
+      "version": "1.0.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/is-binary-path@1.0.1"
+    },
+    {
+      "bom-ref": "205-binary-extensions@1.13.1",
+      "type": "library",
+      "name": "binary-extensions",
+      "version": "1.13.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/binary-extensions@1.13.1"
+    },
+    {
+      "bom-ref": "206-is-glob@4.0.1",
+      "type": "library",
+      "name": "is-glob",
+      "version": "4.0.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/is-glob@4.0.1"
+    },
+    {
+      "bom-ref": "207-normalize-path@3.0.0",
+      "type": "library",
+      "name": "normalize-path",
+      "version": "3.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/normalize-path@3.0.0"
+    },
+    {
+      "bom-ref": "208-readdirp@2.2.1",
+      "type": "library",
+      "name": "readdirp",
+      "version": "2.2.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/readdirp@2.2.1"
+    },
+    {
+      "bom-ref": "209-graceful-fs@4.1.15",
+      "type": "library",
+      "name": "graceful-fs",
+      "version": "4.1.15",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/graceful-fs@4.1.15"
+    },
+    {
+      "bom-ref": "210-readable-stream@2.3.6",
+      "type": "library",
+      "name": "readable-stream",
+      "version": "2.3.6",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/readable-stream@2.3.6"
+    },
+    {
+      "bom-ref": "211-core-util-is@1.0.2",
+      "type": "library",
+      "name": "core-util-is",
+      "version": "1.0.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/core-util-is@1.0.2"
+    },
+    {
+      "bom-ref": "212-process-nextick-args@2.0.0",
+      "type": "library",
+      "name": "process-nextick-args",
+      "version": "2.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/process-nextick-args@2.0.0"
+    },
+    {
+      "bom-ref": "213-string_decoder@1.1.1",
+      "type": "library",
+      "name": "string_decoder",
+      "version": "1.1.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/string_decoder@1.1.1"
+    },
+    {
+      "bom-ref": "214-util-deprecate@1.0.2",
+      "type": "library",
+      "name": "util-deprecate",
+      "version": "1.0.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/util-deprecate@1.0.2"
+    },
+    {
+      "bom-ref": "215-upath@1.1.2",
+      "type": "library",
+      "name": "upath",
+      "version": "1.1.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/upath@1.1.2"
+    },
+    {
+      "bom-ref": "216-fsevents@1.2.9",
+      "type": "library",
+      "name": "fsevents",
+      "version": "1.2.9",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/fsevents@1.2.9"
+    },
+    {
+      "bom-ref": "217-nan@2.14.0",
+      "type": "library",
+      "name": "nan",
+      "version": "2.14.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/nan@2.14.0"
+    },
+    {
+      "bom-ref": "218-node-pre-gyp@0.12.0",
+      "type": "library",
+      "name": "node-pre-gyp",
+      "version": "0.12.0",
+      "licenses": [{ "expression": "BSD-3-Clause" }],
+      "purl": "pkg:npm/node-pre-gyp@0.12.0"
+    },
+    {
+      "bom-ref": "219-detect-libc@1.0.3",
+      "type": "library",
+      "name": "detect-libc",
+      "version": "1.0.3",
+      "licenses": [{ "expression": "Apache-2.0" }],
+      "purl": "pkg:npm/detect-libc@1.0.3"
+    },
+    {
+      "bom-ref": "220-needle@2.3.0",
+      "type": "library",
+      "name": "needle",
+      "version": "2.3.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/needle@2.3.0"
+    },
+    {
+      "bom-ref": "221-debug@4.1.1",
+      "type": "library",
+      "name": "debug",
+      "version": "4.1.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/debug@4.1.1"
+    },
+    {
+      "bom-ref": "222-ms@2.1.1",
+      "type": "library",
+      "name": "ms",
+      "version": "2.1.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/ms@2.1.1"
+    },
+    {
+      "bom-ref": "223-iconv-lite@0.4.24",
+      "type": "library",
+      "name": "iconv-lite",
+      "version": "0.4.24",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/iconv-lite@0.4.24"
+    },
+    {
+      "bom-ref": "224-sax@1.2.4",
+      "type": "library",
+      "name": "sax",
+      "version": "1.2.4",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/sax@1.2.4"
+    },
+    {
+      "bom-ref": "225-nopt@4.0.1",
+      "type": "library",
+      "name": "nopt",
+      "version": "4.0.1",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/nopt@4.0.1"
+    },
+    {
+      "bom-ref": "226-abbrev@1.1.1",
+      "type": "library",
+      "name": "abbrev",
+      "version": "1.1.1",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/abbrev@1.1.1"
+    },
+    {
+      "bom-ref": "227-osenv@0.1.5",
+      "type": "library",
+      "name": "osenv",
+      "version": "0.1.5",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/osenv@0.1.5"
+    },
+    {
+      "bom-ref": "228-os-homedir@1.0.2",
+      "type": "library",
+      "name": "os-homedir",
+      "version": "1.0.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/os-homedir@1.0.2"
+    },
+    {
+      "bom-ref": "229-os-tmpdir@1.0.2",
+      "type": "library",
+      "name": "os-tmpdir",
+      "version": "1.0.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/os-tmpdir@1.0.2"
+    },
+    {
+      "bom-ref": "230-npm-packlist@1.4.1",
+      "type": "library",
+      "name": "npm-packlist",
+      "version": "1.4.1",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/npm-packlist@1.4.1"
+    },
+    {
+      "bom-ref": "231-ignore-walk@3.0.1",
+      "type": "library",
+      "name": "ignore-walk",
+      "version": "3.0.1",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/ignore-walk@3.0.1"
+    },
+    {
+      "bom-ref": "232-npm-bundled@1.0.6",
+      "type": "library",
+      "name": "npm-bundled",
+      "version": "1.0.6",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/npm-bundled@1.0.6"
+    },
+    {
+      "bom-ref": "233-npmlog@4.1.2",
+      "type": "library",
+      "name": "npmlog",
+      "version": "4.1.2",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/npmlog@4.1.2"
+    },
+    {
+      "bom-ref": "234-are-we-there-yet@1.1.5",
+      "type": "library",
+      "name": "are-we-there-yet",
+      "version": "1.1.5",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/are-we-there-yet@1.1.5"
+    },
+    {
+      "bom-ref": "235-delegates@1.0.0",
+      "type": "library",
+      "name": "delegates",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/delegates@1.0.0"
+    },
+    {
+      "bom-ref": "236-console-control-strings@1.1.0",
+      "type": "library",
+      "name": "console-control-strings",
+      "version": "1.1.0",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/console-control-strings@1.1.0"
+    },
+    {
+      "bom-ref": "237-gauge@2.7.4",
+      "type": "library",
+      "name": "gauge",
+      "version": "2.7.4",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/gauge@2.7.4"
+    },
+    {
+      "bom-ref": "238-aproba@1.2.0",
+      "type": "library",
+      "name": "aproba",
+      "version": "1.2.0",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/aproba@1.2.0"
+    },
+    {
+      "bom-ref": "239-has-unicode@2.0.1",
+      "type": "library",
+      "name": "has-unicode",
+      "version": "2.0.1",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/has-unicode@2.0.1"
+    },
+    {
+      "bom-ref": "240-object-assign@4.1.1",
+      "type": "library",
+      "name": "object-assign",
+      "version": "4.1.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/object-assign@4.1.1"
+    },
+    {
+      "bom-ref": "241-signal-exit@3.0.2",
+      "type": "library",
+      "name": "signal-exit",
+      "version": "3.0.2",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/signal-exit@3.0.2"
+    },
+    {
+      "bom-ref": "242-string-width@1.0.2",
+      "type": "library",
+      "name": "string-width",
+      "version": "1.0.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/string-width@1.0.2"
+    },
+    {
+      "bom-ref": "243-code-point-at@1.1.0",
+      "type": "library",
+      "name": "code-point-at",
+      "version": "1.1.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/code-point-at@1.1.0"
+    },
+    {
+      "bom-ref": "244-is-fullwidth-code-point@1.0.0",
+      "type": "library",
+      "name": "is-fullwidth-code-point",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/is-fullwidth-code-point@1.0.0"
+    },
+    {
+      "bom-ref": "245-number-is-nan@1.0.1",
+      "type": "library",
+      "name": "number-is-nan",
+      "version": "1.0.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/number-is-nan@1.0.1"
+    },
+    {
+      "bom-ref": "246-strip-ansi@3.0.1",
+      "type": "library",
+      "name": "strip-ansi",
+      "version": "3.0.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/strip-ansi@3.0.1"
+    },
+    {
+      "bom-ref": "247-ansi-regex@2.1.1",
+      "type": "library",
+      "name": "ansi-regex",
+      "version": "2.1.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/ansi-regex@2.1.1"
+    },
+    {
+      "bom-ref": "248-wide-align@1.1.3",
+      "type": "library",
+      "name": "wide-align",
+      "version": "1.1.3",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/wide-align@1.1.3"
+    },
+    {
+      "bom-ref": "249-set-blocking@2.0.0",
+      "type": "library",
+      "name": "set-blocking",
+      "version": "2.0.0",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/set-blocking@2.0.0"
+    },
+    {
+      "bom-ref": "250-rc@1.2.8",
+      "type": "library",
+      "name": "rc",
+      "version": "1.2.8",
+      "licenses": [{ "expression": "(BSD-2-Clause OR MIT OR Apache-2.0)" }],
+      "purl": "pkg:npm/rc@1.2.8"
+    },
+    {
+      "bom-ref": "251-deep-extend@0.6.0",
+      "type": "library",
+      "name": "deep-extend",
+      "version": "0.6.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/deep-extend@0.6.0"
+    },
+    {
+      "bom-ref": "252-minimist@1.2.0",
+      "type": "library",
+      "name": "minimist",
+      "version": "1.2.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/minimist@1.2.0"
+    },
+    {
+      "bom-ref": "253-strip-json-comments@2.0.1",
+      "type": "library",
+      "name": "strip-json-comments",
+      "version": "2.0.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/strip-json-comments@2.0.1"
+    },
+    {
+      "bom-ref": "254-semver@5.7.0",
+      "type": "library",
+      "name": "semver",
+      "version": "5.7.0",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/semver@5.7.0"
+    },
+    {
+      "bom-ref": "255-tar@4.4.8",
+      "type": "library",
+      "name": "tar",
+      "version": "4.4.8",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/tar@4.4.8"
+    },
+    {
+      "bom-ref": "256-chownr@1.1.1",
+      "type": "library",
+      "name": "chownr",
+      "version": "1.1.1",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/chownr@1.1.1"
+    },
+    {
+      "bom-ref": "257-fs-minipass@1.2.5",
+      "type": "library",
+      "name": "fs-minipass",
+      "version": "1.2.5",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/fs-minipass@1.2.5"
+    },
+    {
+      "bom-ref": "258-minipass@2.3.5",
+      "type": "library",
+      "name": "minipass",
+      "version": "2.3.5",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/minipass@2.3.5"
+    },
+    {
+      "bom-ref": "259-yallist@3.0.3",
+      "type": "library",
+      "name": "yallist",
+      "version": "3.0.3",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/yallist@3.0.3"
+    },
+    {
+      "bom-ref": "260-minizlib@1.2.1",
+      "type": "library",
+      "name": "minizlib",
+      "version": "1.2.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/minizlib@1.2.1"
+    },
+    {
+      "bom-ref": "261-ps-tree@0.0.3",
+      "type": "library",
+      "name": "ps-tree",
+      "version": "0.0.3",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/ps-tree@0.0.3"
+    },
+    {
+      "bom-ref": "262-event-stream@0.5.3",
+      "type": "library",
+      "name": "event-stream",
+      "version": "0.5.3",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/event-stream@0.5.3"
+    },
+    {
+      "bom-ref": "263-optimist@0.2.8",
+      "type": "library",
+      "name": "optimist",
+      "version": "0.2.8",
+      "licenses": [{ "expression": "(MIT OR X11)" }],
+      "purl": "pkg:npm/optimist@0.2.8"
+    },
+    {
+      "bom-ref": "264-utile@0.3.0",
+      "type": "library",
+      "name": "utile",
+      "version": "0.3.0",
+      "purl": "pkg:npm/utile@0.3.0"
+    },
+    {
+      "bom-ref": "265-async@0.9.2",
+      "type": "library",
+      "name": "async",
+      "version": "0.9.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/async@0.9.2"
+    },
+    {
+      "bom-ref": "266-ncp@1.0.1",
+      "type": "library",
+      "name": "ncp",
+      "version": "1.0.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/ncp@1.0.1"
+    },
+    {
+      "bom-ref": "267-nconf@0.10.0",
+      "type": "library",
+      "name": "nconf",
+      "version": "0.10.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/nconf@0.10.0"
+    },
+    {
+      "bom-ref": "268-secure-keys@1.0.0",
+      "type": "library",
+      "name": "secure-keys",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/secure-keys@1.0.0"
+    },
+    {
+      "bom-ref": "269-yargs@3.32.0",
+      "type": "library",
+      "name": "yargs",
+      "version": "3.32.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/yargs@3.32.0"
+    },
+    {
+      "bom-ref": "270-camelcase@2.1.1",
+      "type": "library",
+      "name": "camelcase",
+      "version": "2.1.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/camelcase@2.1.1"
+    },
+    {
+      "bom-ref": "271-cliui@3.2.0",
+      "type": "library",
+      "name": "cliui",
+      "version": "3.2.0",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/cliui@3.2.0"
+    },
+    {
+      "bom-ref": "272-wrap-ansi@2.1.0",
+      "type": "library",
+      "name": "wrap-ansi",
+      "version": "2.1.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/wrap-ansi@2.1.0"
+    },
+    {
+      "bom-ref": "273-decamelize@1.2.0",
+      "type": "library",
+      "name": "decamelize",
+      "version": "1.2.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/decamelize@1.2.0"
+    },
+    {
+      "bom-ref": "274-os-locale@1.4.0",
+      "type": "library",
+      "name": "os-locale",
+      "version": "1.4.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/os-locale@1.4.0"
+    },
+    {
+      "bom-ref": "275-lcid@1.0.0",
+      "type": "library",
+      "name": "lcid",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/lcid@1.0.0"
+    },
+    {
+      "bom-ref": "276-invert-kv@1.0.0",
+      "type": "library",
+      "name": "invert-kv",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/invert-kv@1.0.0"
+    },
+    {
+      "bom-ref": "277-window-size@0.1.4",
+      "type": "library",
+      "name": "window-size",
+      "version": "0.1.4",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/window-size@0.1.4"
+    },
+    {
+      "bom-ref": "278-y18n@3.2.1",
+      "type": "library",
+      "name": "y18n",
+      "version": "3.2.1",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/y18n@3.2.1"
+    },
+    {
+      "bom-ref": "279-nssocket@0.6.0",
+      "type": "library",
+      "name": "nssocket",
+      "version": "0.6.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/nssocket@0.6.0"
+    },
+    {
+      "bom-ref": "280-lazy@1.0.11",
+      "type": "library",
+      "name": "lazy",
+      "version": "1.0.11",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/lazy@1.0.11"
+    },
+    {
+      "bom-ref": "281-optimist@0.6.1",
+      "type": "library",
+      "name": "optimist",
+      "version": "0.6.1",
+      "licenses": [{ "expression": "(MIT OR X11)" }],
+      "purl": "pkg:npm/optimist@0.6.1"
+    },
+    {
+      "bom-ref": "282-path-is-absolute@2.0.0",
+      "type": "library",
+      "name": "path-is-absolute",
+      "version": "2.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/path-is-absolute@2.0.0"
+    },
+    {
+      "bom-ref": "283-prettyjson@1.2.1",
+      "type": "library",
+      "name": "prettyjson",
+      "version": "1.2.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/prettyjson@1.2.1"
+    },
+    {
+      "bom-ref": "284-colors@1.4.0",
+      "type": "library",
+      "name": "colors",
+      "version": "1.4.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/colors@1.4.0"
+    },
+    {
+      "bom-ref": "285-minimist@1.2.5",
+      "type": "library",
+      "name": "minimist",
+      "version": "1.2.5",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/minimist@1.2.5"
+    },
+    {
+      "bom-ref": "286-shush@1.0.0",
+      "type": "library",
+      "name": "shush",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/shush@1.0.0"
+    },
+    {
+      "bom-ref": "287-caller@0.0.1",
+      "type": "library",
+      "name": "caller",
+      "version": "0.0.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/caller@0.0.1"
+    },
+    {
+      "bom-ref": "288-tape@2.3.3",
+      "type": "library",
+      "name": "tape",
+      "version": "2.3.3",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/tape@2.3.3"
+    },
+    {
+      "bom-ref": "289-deep-equal@0.1.2",
+      "type": "library",
+      "name": "deep-equal",
+      "version": "0.1.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/deep-equal@0.1.2"
+    },
+    {
+      "bom-ref": "290-defined@0.0.0",
+      "type": "library",
+      "name": "defined",
+      "version": "0.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/defined@0.0.0"
+    },
+    {
+      "bom-ref": "291-jsonify@0.0.0",
+      "type": "library",
+      "name": "jsonify",
+      "version": "0.0.0",
+      "licenses": [{ "expression": "Public-Domain" }],
+      "purl": "pkg:npm/jsonify@0.0.0"
+    },
+    {
+      "bom-ref": "292-resumer@0.0.0",
+      "type": "library",
+      "name": "resumer",
+      "version": "0.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/resumer@0.0.0"
+    },
+    {
+      "bom-ref": "293-through@2.3.8",
+      "type": "library",
+      "name": "through",
+      "version": "2.3.8",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/through@2.3.8"
+    },
+    {
+      "bom-ref": "294-strip-json-comments@0.1.3",
+      "type": "library",
+      "name": "strip-json-comments",
+      "version": "0.1.3",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/strip-json-comments@0.1.3"
+    },
+    {
+      "bom-ref": "295-helmet@2.3.0",
+      "type": "library",
+      "name": "helmet",
+      "version": "2.3.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/helmet@2.3.0"
+    },
+    {
+      "bom-ref": "296-connect@3.4.1",
+      "type": "library",
+      "name": "connect",
+      "version": "3.4.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/connect@3.4.1"
+    },
+    {
+      "bom-ref": "297-debug@2.2.0",
+      "type": "library",
+      "name": "debug",
+      "version": "2.2.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/debug@2.2.0"
+    },
+    {
+      "bom-ref": "298-ms@0.7.1",
+      "type": "library",
+      "name": "ms",
+      "version": "0.7.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/ms@0.7.1"
+    },
+    {
+      "bom-ref": "299-finalhandler@0.4.1",
+      "type": "library",
+      "name": "finalhandler",
+      "version": "0.4.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/finalhandler@0.4.1"
+    },
+    {
+      "bom-ref": "300-utils-merge@1.0.0",
+      "type": "library",
+      "name": "utils-merge",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/utils-merge@1.0.0"
+    },
+    {
+      "bom-ref": "301-dns-prefetch-control@0.1.0",
+      "type": "library",
+      "name": "dns-prefetch-control",
+      "version": "0.1.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/dns-prefetch-control@0.1.0"
+    },
+    {
+      "bom-ref": "302-frameguard@2.0.0",
+      "type": "library",
+      "name": "frameguard",
+      "version": "2.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/frameguard@2.0.0"
+    },
+    {
+      "bom-ref": "303-helmet-csp@1.2.2",
+      "type": "library",
+      "name": "helmet-csp",
+      "version": "1.2.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/helmet-csp@1.2.2"
+    },
+    {
+      "bom-ref": "304-camelize@1.0.0",
+      "type": "library",
+      "name": "camelize",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/camelize@1.0.0"
+    },
+    {
+      "bom-ref": "305-content-security-policy-builder@1.0.0",
+      "type": "library",
+      "name": "content-security-policy-builder",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/content-security-policy-builder@1.0.0"
+    },
+    {
+      "bom-ref": "306-dashify@0.2.2",
+      "type": "library",
+      "name": "dashify",
+      "version": "0.2.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/dashify@0.2.2"
+    },
+    {
+      "bom-ref": "307-lodash.reduce@4.5.0",
+      "type": "library",
+      "name": "lodash.reduce",
+      "version": "4.5.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/lodash.reduce@4.5.0"
+    },
+    {
+      "bom-ref": "308-platform@1.3.1",
+      "type": "library",
+      "name": "platform",
+      "version": "1.3.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/platform@1.3.1"
+    },
+    {
+      "bom-ref": "309-hide-powered-by@1.0.0",
+      "type": "library",
+      "name": "hide-powered-by",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/hide-powered-by@1.0.0"
+    },
+    {
+      "bom-ref": "310-hpkp@1.2.0",
+      "type": "library",
+      "name": "hpkp",
+      "version": "1.2.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/hpkp@1.2.0"
+    },
+    {
+      "bom-ref": "311-hsts@1.0.0",
+      "type": "library",
+      "name": "hsts",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/hsts@1.0.0"
+    },
+    {
+      "bom-ref": "312-ienoopen@1.0.0",
+      "type": "library",
+      "name": "ienoopen",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/ienoopen@1.0.0"
+    },
+    {
+      "bom-ref": "313-nocache@1.0.1",
+      "type": "library",
+      "name": "nocache",
+      "version": "1.0.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/nocache@1.0.1"
+    },
+    {
+      "bom-ref": "314-depd@1.1.0",
+      "type": "library",
+      "name": "depd",
+      "version": "1.1.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/depd@1.1.0"
+    },
+    {
+      "bom-ref": "315-referrer-policy@1.0.0",
+      "type": "library",
+      "name": "referrer-policy",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/referrer-policy@1.0.0"
+    },
+    {
+      "bom-ref": "316-x-xss-protection@1.0.0",
+      "type": "library",
+      "name": "x-xss-protection",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/x-xss-protection@1.0.0"
+    },
+    {
+      "bom-ref": "317-marked@0.3.5",
+      "type": "library",
+      "name": "marked",
+      "version": "0.3.5",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/marked@0.3.5"
+    },
+    {
+      "bom-ref": "318-mongodb@2.2.36",
+      "type": "library",
+      "name": "mongodb",
+      "version": "2.2.36",
+      "licenses": [{ "expression": "Apache-2.0" }],
+      "purl": "pkg:npm/mongodb@2.2.36"
+    },
+    {
+      "bom-ref": "319-es6-promise@3.2.1",
+      "type": "library",
+      "name": "es6-promise",
+      "version": "3.2.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/es6-promise@3.2.1"
+    },
+    {
+      "bom-ref": "320-mongodb-core@2.1.20",
+      "type": "library",
+      "name": "mongodb-core",
+      "version": "2.1.20",
+      "licenses": [{ "expression": "Apache-2.0" }],
+      "purl": "pkg:npm/mongodb-core@2.1.20"
+    },
+    {
+      "bom-ref": "321-bson@1.0.9",
+      "type": "library",
+      "name": "bson",
+      "version": "1.0.9",
+      "licenses": [{ "expression": "Apache-2.0" }],
+      "purl": "pkg:npm/bson@1.0.9"
+    },
+    {
+      "bom-ref": "322-require_optional@1.0.1",
+      "type": "library",
+      "name": "require_optional",
+      "version": "1.0.1",
+      "licenses": [{ "expression": "Apache-2.0" }],
+      "purl": "pkg:npm/require_optional@1.0.1"
+    },
+    {
+      "bom-ref": "323-resolve-from@2.0.0",
+      "type": "library",
+      "name": "resolve-from",
+      "version": "2.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/resolve-from@2.0.0"
+    },
+    {
+      "bom-ref": "324-semver@5.6.0",
+      "type": "library",
+      "name": "semver",
+      "version": "5.6.0",
+      "licenses": [{ "expression": "ISC" }],
+      "purl": "pkg:npm/semver@5.6.0"
+    },
+    {
+      "bom-ref": "325-readable-stream@2.2.7",
+      "type": "library",
+      "name": "readable-stream",
+      "version": "2.2.7",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/readable-stream@2.2.7"
+    },
+    {
+      "bom-ref": "326-buffer-shims@1.0.0",
+      "type": "library",
+      "name": "buffer-shims",
+      "version": "1.0.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/buffer-shims@1.0.0"
+    },
+    {
+      "bom-ref": "327-process-nextick-args@1.0.7",
+      "type": "library",
+      "name": "process-nextick-args",
+      "version": "1.0.7",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/process-nextick-args@1.0.7"
+    },
+    {
+      "bom-ref": "328-string_decoder@1.0.3",
+      "type": "library",
+      "name": "string_decoder",
+      "version": "1.0.3",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/string_decoder@1.0.3"
+    },
+    {
+      "bom-ref": "329-needle@2.2.4",
+      "type": "library",
+      "name": "needle",
+      "version": "2.2.4",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/needle@2.2.4"
+    },
+    {
+      "bom-ref": "330-node-esapi@0.0.1",
+      "type": "library",
+      "name": "node-esapi",
+      "version": "0.0.1",
+      "purl": "pkg:npm/node-esapi@0.0.1"
+    },
+    {
+      "bom-ref": "331-serve-favicon@2.5.0",
+      "type": "library",
+      "name": "serve-favicon",
+      "version": "2.5.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/serve-favicon@2.5.0"
+    },
+    {
+      "bom-ref": "332-safe-buffer@5.1.1",
+      "type": "library",
+      "name": "safe-buffer",
+      "version": "5.1.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/safe-buffer@5.1.1"
+    },
+    {
+      "bom-ref": "333-swig@1.4.2",
+      "type": "library",
+      "name": "swig",
+      "version": "1.4.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/swig@1.4.2"
+    },
+    {
+      "bom-ref": "334-uglify-js@2.4.24",
+      "type": "library",
+      "name": "uglify-js",
+      "version": "2.4.24",
+      "licenses": [{ "expression": "BSD-2-Clause" }],
+      "purl": "pkg:npm/uglify-js@2.4.24"
+    },
+    {
+      "bom-ref": "335-source-map@0.1.34",
+      "type": "library",
+      "name": "source-map",
+      "version": "0.1.34",
+      "licenses": [{ "expression": "BSD-2-Clause" }],
+      "purl": "pkg:npm/source-map@0.1.34"
+    },
+    {
+      "bom-ref": "336-amdefine@1.0.1",
+      "type": "library",
+      "name": "amdefine",
+      "version": "1.0.1",
+      "licenses": [{ "expression": "(BSD-3-Clause OR MIT)" }],
+      "purl": "pkg:npm/amdefine@1.0.1"
+    },
+    {
+      "bom-ref": "337-uglify-to-browserify@1.0.2",
+      "type": "library",
+      "name": "uglify-to-browserify",
+      "version": "1.0.2",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/uglify-to-browserify@1.0.2"
+    },
+    {
+      "bom-ref": "338-yargs@3.5.4",
+      "type": "library",
+      "name": "yargs",
+      "version": "3.5.4",
+      "licenses": [{ "expression": "(MIT OR X11)" }],
+      "purl": "pkg:npm/yargs@3.5.4"
+    },
+    {
+      "bom-ref": "339-camelcase@1.2.1",
+      "type": "library",
+      "name": "camelcase",
+      "version": "1.2.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/camelcase@1.2.1"
+    },
+    {
+      "bom-ref": "340-window-size@0.1.0",
+      "type": "library",
+      "name": "window-size",
+      "version": "0.1.0",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/window-size@0.1.0"
+    },
+    {
+      "bom-ref": "341-wordwrap@0.0.2",
+      "type": "library",
+      "name": "wordwrap",
+      "version": "0.0.2",
+      "licenses": [{ "expression": "(MIT OR X11)" }],
+      "purl": "pkg:npm/wordwrap@0.0.2"
+    },
+    {
+      "bom-ref": "342-underscore@1.9.1",
+      "type": "library",
+      "name": "underscore",
+      "version": "1.9.1",
+      "licenses": [{ "expression": "MIT" }],
+      "purl": "pkg:npm/underscore@1.9.1"
+    }
+  ],
+  "dependencies": [
+    { "ref": "1-NodeGoat2", "dependsOn": ["1-owasp-nodejs-goat@1.3.0"] },
+    {
+      "ref": "1-owasp-nodejs-goat@1.3.0",
+      "dependsOn": [
+        "2-bcrypt-nodejs@0.0.3",
+        "3-body-parser@1.18.3",
+        "24-consolidate@0.14.5",
+        "26-csurf@1.9.0",
+        "36-dont-sniff-mimetype@1.0.0",
+        "37-express@4.16.4",
+        "63-express-session@1.15.6",
+        "67-forever@2.0.0",
+        "295-helmet@2.3.0",
+        "317-marked@0.3.5",
+        "318-mongodb@2.2.36",
+        "329-needle@2.2.4",
+        "330-node-esapi@0.0.1",
+        "331-serve-favicon@2.5.0",
+        "333-swig@1.4.2",
+        "342-underscore@1.9.1"
+      ]
+    },
+    { "ref": "2-bcrypt-nodejs@0.0.3" },
+    {
+      "ref": "3-body-parser@1.18.3",
+      "dependsOn": [
+        "4-bytes@3.0.0",
+        "5-content-type@1.0.4",
+        "6-debug@2.6.9",
+        "8-depd@1.1.2",
+        "9-http-errors@1.6.3",
+        "13-iconv-lite@0.4.23",
+        "15-on-finished@2.3.0",
+        "17-qs@6.5.2",
+        "18-raw-body@2.3.3",
+        "20-type-is@1.6.16"
+      ]
+    },
+    { "ref": "4-bytes@3.0.0" },
+    { "ref": "5-content-type@1.0.4" },
+    { "ref": "6-debug@2.6.9", "dependsOn": ["7-ms@2.0.0"] },
+    { "ref": "7-ms@2.0.0" },
+    { "ref": "8-depd@1.1.2" },
+    {
+      "ref": "9-http-errors@1.6.3",
+      "dependsOn": [
+        "8-depd@1.1.2",
+        "10-inherits@2.0.3",
+        "11-setprototypeof@1.1.0",
+        "12-statuses@1.5.0"
+      ]
+    },
+    { "ref": "10-inherits@2.0.3" },
+    { "ref": "11-setprototypeof@1.1.0" },
+    { "ref": "12-statuses@1.5.0" },
+    { "ref": "13-iconv-lite@0.4.23", "dependsOn": ["14-safer-buffer@2.1.2"] },
+    { "ref": "14-safer-buffer@2.1.2" },
+    { "ref": "15-on-finished@2.3.0", "dependsOn": ["16-ee-first@1.1.1"] },
+    { "ref": "16-ee-first@1.1.1" },
+    { "ref": "17-qs@6.5.2" },
+    {
+      "ref": "18-raw-body@2.3.3",
+      "dependsOn": [
+        "4-bytes@3.0.0",
+        "9-http-errors@1.6.3",
+        "13-iconv-lite@0.4.23",
+        "19-unpipe@1.0.0"
+      ]
+    },
+    { "ref": "19-unpipe@1.0.0" },
+    {
+      "ref": "20-type-is@1.6.16",
+      "dependsOn": ["21-media-typer@0.3.0", "22-mime-types@2.1.21"]
+    },
+    { "ref": "21-media-typer@0.3.0" },
+    { "ref": "22-mime-types@2.1.21", "dependsOn": ["23-mime-db@1.37.0"] },
+    { "ref": "23-mime-db@1.37.0" },
+    { "ref": "24-consolidate@0.14.5", "dependsOn": ["25-bluebird@3.5.3"] },
+    { "ref": "25-bluebird@3.5.3" },
+    {
+      "ref": "26-csurf@1.9.0",
+      "dependsOn": [
+        "27-cookie@0.3.1",
+        "28-cookie-signature@1.0.6",
+        "29-csrf@3.0.6",
+        "34-http-errors@1.5.1"
+      ]
+    },
+    { "ref": "27-cookie@0.3.1" },
+    { "ref": "28-cookie-signature@1.0.6" },
+    {
+      "ref": "29-csrf@3.0.6",
+      "dependsOn": ["30-rndm@1.2.0", "31-tsscmp@1.0.5", "32-uid-safe@2.1.4"]
+    },
+    { "ref": "30-rndm@1.2.0" },
+    { "ref": "31-tsscmp@1.0.5" },
+    { "ref": "32-uid-safe@2.1.4", "dependsOn": ["33-random-bytes@1.0.0"] },
+    { "ref": "33-random-bytes@1.0.0" },
+    {
+      "ref": "34-http-errors@1.5.1",
+      "dependsOn": [
+        "10-inherits@2.0.3",
+        "35-setprototypeof@1.0.2",
+        "12-statuses@1.5.0"
+      ]
+    },
+    { "ref": "35-setprototypeof@1.0.2" },
+    { "ref": "36-dont-sniff-mimetype@1.0.0" },
+    {
+      "ref": "37-express@4.16.4",
+      "dependsOn": [
+        "38-accepts@1.3.5",
+        "40-array-flatten@1.1.1",
+        "3-body-parser@1.18.3",
+        "41-content-disposition@0.5.2",
+        "5-content-type@1.0.4",
+        "27-cookie@0.3.1",
+        "28-cookie-signature@1.0.6",
+        "6-debug@2.6.9",
+        "8-depd@1.1.2",
+        "42-encodeurl@1.0.2",
+        "43-escape-html@1.0.3",
+        "44-etag@1.8.1",
+        "45-finalhandler@1.1.1",
+        "48-fresh@0.5.2",
+        "49-merge-descriptors@1.0.1",
+        "50-methods@1.1.2",
+        "15-on-finished@2.3.0",
+        "46-parseurl@1.3.2",
+        "51-path-to-regexp@0.1.7",
+        "52-proxy-addr@2.0.4",
+        "17-qs@6.5.2",
+        "55-range-parser@1.2.0",
+        "56-safe-buffer@5.1.2",
+        "57-send@0.16.2",
+        "60-serve-static@1.13.2",
+        "11-setprototypeof@1.1.0",
+        "47-statuses@1.4.0",
+        "20-type-is@1.6.16",
+        "61-utils-merge@1.0.1",
+        "62-vary@1.1.2"
+      ]
+    },
+    {
+      "ref": "38-accepts@1.3.5",
+      "dependsOn": ["22-mime-types@2.1.21", "39-negotiator@0.6.1"]
+    },
+    { "ref": "39-negotiator@0.6.1" },
+    { "ref": "40-array-flatten@1.1.1" },
+    { "ref": "41-content-disposition@0.5.2" },
+    { "ref": "42-encodeurl@1.0.2" },
+    { "ref": "43-escape-html@1.0.3" },
+    { "ref": "44-etag@1.8.1" },
+    {
+      "ref": "45-finalhandler@1.1.1",
+      "dependsOn": [
+        "6-debug@2.6.9",
+        "42-encodeurl@1.0.2",
+        "43-escape-html@1.0.3",
+        "15-on-finished@2.3.0",
+        "46-parseurl@1.3.2",
+        "47-statuses@1.4.0",
+        "19-unpipe@1.0.0"
+      ]
+    },
+    { "ref": "46-parseurl@1.3.2" },
+    { "ref": "47-statuses@1.4.0" },
+    { "ref": "48-fresh@0.5.2" },
+    { "ref": "49-merge-descriptors@1.0.1" },
+    { "ref": "50-methods@1.1.2" },
+    { "ref": "51-path-to-regexp@0.1.7" },
+    {
+      "ref": "52-proxy-addr@2.0.4",
+      "dependsOn": ["53-forwarded@0.1.2", "54-ipaddr.js@1.8.0"]
+    },
+    { "ref": "53-forwarded@0.1.2" },
+    { "ref": "54-ipaddr.js@1.8.0" },
+    { "ref": "55-range-parser@1.2.0" },
+    { "ref": "56-safe-buffer@5.1.2" },
+    {
+      "ref": "57-send@0.16.2",
+      "dependsOn": [
+        "6-debug@2.6.9",
+        "8-depd@1.1.2",
+        "58-destroy@1.0.4",
+        "42-encodeurl@1.0.2",
+        "43-escape-html@1.0.3",
+        "44-etag@1.8.1",
+        "48-fresh@0.5.2",
+        "9-http-errors@1.6.3",
+        "59-mime@1.4.1",
+        "7-ms@2.0.0",
+        "15-on-finished@2.3.0",
+        "55-range-parser@1.2.0",
+        "47-statuses@1.4.0"
+      ]
+    },
+    { "ref": "58-destroy@1.0.4" },
+    { "ref": "59-mime@1.4.1" },
+    {
+      "ref": "60-serve-static@1.13.2",
+      "dependsOn": [
+        "42-encodeurl@1.0.2",
+        "43-escape-html@1.0.3",
+        "46-parseurl@1.3.2",
+        "57-send@0.16.2"
+      ]
+    },
+    { "ref": "61-utils-merge@1.0.1" },
+    { "ref": "62-vary@1.1.2" },
+    {
+      "ref": "63-express-session@1.15.6",
+      "dependsOn": [
+        "27-cookie@0.3.1",
+        "28-cookie-signature@1.0.6",
+        "64-crc@3.4.4",
+        "6-debug@2.6.9",
+        "8-depd@1.1.2",
+        "65-on-headers@1.0.1",
+        "46-parseurl@1.3.2",
+        "66-uid-safe@2.1.5",
+        "61-utils-merge@1.0.1"
+      ]
+    },
+    { "ref": "64-crc@3.4.4" },
+    { "ref": "65-on-headers@1.0.1" },
+    { "ref": "66-uid-safe@2.1.5", "dependsOn": ["33-random-bytes@1.0.0"] },
+    {
+      "ref": "67-forever@2.0.0",
+      "dependsOn": [
+        "68-async@1.5.2",
+        "69-cliff@0.1.10",
+        "79-clone@2.1.2",
+        "74-colors@0.6.2",
+        "80-flatiron@0.4.3",
+        "113-forever-monitor@2.0.0",
+        "93-mkdirp@0.5.1",
+        "267-nconf@0.10.0",
+        "279-nssocket@0.6.0",
+        "240-object-assign@4.1.1",
+        "281-optimist@0.6.1",
+        "282-path-is-absolute@2.0.0",
+        "283-prettyjson@1.2.1",
+        "286-shush@1.0.0",
+        "264-utile@0.3.0",
+        "72-winston@0.8.3"
+      ]
+    },
+    { "ref": "68-async@1.5.2" },
+    {
+      "ref": "69-cliff@0.1.10",
+      "dependsOn": ["70-colors@1.0.3", "71-eyes@0.1.8", "72-winston@0.8.3"]
+    },
+    { "ref": "70-colors@1.0.3" },
+    { "ref": "71-eyes@0.1.8" },
+    {
+      "ref": "72-winston@0.8.3",
+      "dependsOn": [
+        "73-async@0.2.10",
+        "74-colors@0.6.2",
+        "75-cycle@1.0.3",
+        "71-eyes@0.1.8",
+        "76-isstream@0.1.2",
+        "77-pkginfo@0.3.1",
+        "78-stack-trace@0.0.10"
+      ]
+    },
+    { "ref": "73-async@0.2.10" },
+    { "ref": "74-colors@0.6.2" },
+    { "ref": "75-cycle@1.0.3" },
+    { "ref": "76-isstream@0.1.2" },
+    { "ref": "77-pkginfo@0.3.1" },
+    { "ref": "78-stack-trace@0.0.10" },
+    { "ref": "79-clone@2.1.2" },
+    {
+      "ref": "80-flatiron@0.4.3",
+      "dependsOn": [
+        "81-broadway@0.3.6",
+        "108-director@1.2.7",
+        "87-optimist@0.6.0",
+        "109-prompt@0.2.14"
+      ]
+    },
+    {
+      "ref": "81-broadway@0.3.6",
+      "dependsOn": [
+        "82-cliff@0.1.9",
+        "83-eventemitter2@0.4.14",
+        "84-nconf@0.6.9",
+        "90-utile@0.2.1",
+        "107-winston@0.8.0"
+      ]
+    },
+    {
+      "ref": "82-cliff@0.1.9",
+      "dependsOn": ["74-colors@0.6.2", "71-eyes@0.1.8", "72-winston@0.8.3"]
+    },
+    { "ref": "83-eventemitter2@0.4.14" },
+    {
+      "ref": "84-nconf@0.6.9",
+      "dependsOn": ["85-async@0.2.9", "86-ini@1.3.5", "87-optimist@0.6.0"]
+    },
+    { "ref": "85-async@0.2.9" },
+    { "ref": "86-ini@1.3.5" },
+    {
+      "ref": "87-optimist@0.6.0",
+      "dependsOn": ["88-minimist@0.0.10", "89-wordwrap@0.0.3"]
+    },
+    { "ref": "88-minimist@0.0.10" },
+    { "ref": "89-wordwrap@0.0.3" },
+    {
+      "ref": "90-utile@0.2.1",
+      "dependsOn": [
+        "73-async@0.2.10",
+        "91-deep-equal@0.2.2",
+        "92-i@0.3.6",
+        "93-mkdirp@0.5.1",
+        "95-ncp@0.4.2",
+        "96-rimraf@2.6.3"
+      ]
+    },
+    { "ref": "91-deep-equal@0.2.2" },
+    { "ref": "92-i@0.3.6" },
+    { "ref": "93-mkdirp@0.5.1", "dependsOn": ["94-minimist@0.0.8"] },
+    { "ref": "94-minimist@0.0.8" },
+    { "ref": "95-ncp@0.4.2" },
+    { "ref": "96-rimraf@2.6.3", "dependsOn": ["97-glob@7.1.3"] },
+    {
+      "ref": "97-glob@7.1.3",
+      "dependsOn": [
+        "98-fs.realpath@1.0.0",
+        "99-inflight@1.0.6",
+        "10-inherits@2.0.3",
+        "102-minimatch@3.0.4",
+        "100-once@1.4.0",
+        "106-path-is-absolute@1.0.1"
+      ]
+    },
+    { "ref": "98-fs.realpath@1.0.0" },
+    {
+      "ref": "99-inflight@1.0.6",
+      "dependsOn": ["100-once@1.4.0", "101-wrappy@1.0.2"]
+    },
+    { "ref": "100-once@1.4.0", "dependsOn": ["101-wrappy@1.0.2"] },
+    { "ref": "101-wrappy@1.0.2" },
+    {
+      "ref": "102-minimatch@3.0.4",
+      "dependsOn": ["103-brace-expansion@1.1.11"]
+    },
+    {
+      "ref": "103-brace-expansion@1.1.11",
+      "dependsOn": ["104-balanced-match@1.0.0", "105-concat-map@0.0.1"]
+    },
+    { "ref": "104-balanced-match@1.0.0" },
+    { "ref": "105-concat-map@0.0.1" },
+    { "ref": "106-path-is-absolute@1.0.1" },
+    {
+      "ref": "107-winston@0.8.0",
+      "dependsOn": [
+        "73-async@0.2.10",
+        "74-colors@0.6.2",
+        "75-cycle@1.0.3",
+        "71-eyes@0.1.8",
+        "77-pkginfo@0.3.1",
+        "78-stack-trace@0.0.10"
+      ]
+    },
+    { "ref": "108-director@1.2.7" },
+    {
+      "ref": "109-prompt@0.2.14",
+      "dependsOn": [
+        "77-pkginfo@0.3.1",
+        "110-read@1.0.7",
+        "112-revalidator@0.1.8",
+        "90-utile@0.2.1",
+        "72-winston@0.8.3"
+      ]
+    },
+    { "ref": "110-read@1.0.7", "dependsOn": ["111-mute-stream@0.0.8"] },
+    { "ref": "111-mute-stream@0.0.8" },
+    { "ref": "112-revalidator@0.1.8" },
+    {
+      "ref": "113-forever-monitor@2.0.0",
+      "dependsOn": [
+        "81-broadway@0.3.6",
+        "114-chokidar@2.1.8",
+        "102-minimatch@3.0.4",
+        "261-ps-tree@0.0.3",
+        "264-utile@0.3.0"
+      ]
+    },
+    {
+      "ref": "114-chokidar@2.1.8",
+      "dependsOn": [
+        "115-anymatch@2.0.0",
+        "199-async-each@1.0.3",
+        "119-braces@2.3.2",
+        "200-glob-parent@3.1.0",
+        "10-inherits@2.0.3",
+        "204-is-binary-path@1.0.1",
+        "206-is-glob@4.0.1",
+        "207-normalize-path@3.0.0",
+        "106-path-is-absolute@1.0.1",
+        "208-readdirp@2.2.1",
+        "215-upath@1.1.2",
+        "216-fsevents@1.2.9"
+      ]
+    },
+    {
+      "ref": "115-anymatch@2.0.0",
+      "dependsOn": ["116-micromatch@3.1.10", "197-normalize-path@2.1.1"]
+    },
+    {
+      "ref": "116-micromatch@3.1.10",
+      "dependsOn": [
+        "117-arr-diff@4.0.0",
+        "118-array-unique@0.3.2",
+        "119-braces@2.3.2",
+        "186-define-property@2.0.2",
+        "145-extend-shallow@3.0.2",
+        "190-extglob@2.0.4",
+        "193-fragment-cache@0.2.1",
+        "169-kind-of@6.0.2",
+        "194-nanomatch@1.2.13",
+        "196-object.pick@1.3.0",
+        "187-regex-not@1.0.2",
+        "131-snapdragon@0.8.2",
+        "185-to-regex@3.0.2"
+      ]
+    },
+    { "ref": "117-arr-diff@4.0.0" },
+    { "ref": "118-array-unique@0.3.2" },
+    {
+      "ref": "119-braces@2.3.2",
+      "dependsOn": [
+        "120-arr-flatten@1.1.0",
+        "118-array-unique@0.3.2",
+        "121-extend-shallow@2.0.1",
+        "123-fill-range@4.0.0",
+        "129-isobject@3.0.1",
+        "130-repeat-element@1.1.3",
+        "131-snapdragon@0.8.2",
+        "183-snapdragon-node@2.1.1",
+        "144-split-string@3.1.0",
+        "185-to-regex@3.0.2"
+      ]
+    },
+    { "ref": "120-arr-flatten@1.1.0" },
+    {
+      "ref": "121-extend-shallow@2.0.1",
+      "dependsOn": ["122-is-extendable@0.1.1"]
+    },
+    { "ref": "122-is-extendable@0.1.1" },
+    {
+      "ref": "123-fill-range@4.0.0",
+      "dependsOn": [
+        "121-extend-shallow@2.0.1",
+        "124-is-number@3.0.0",
+        "127-repeat-string@1.6.1",
+        "128-to-regex-range@2.1.1"
+      ]
+    },
+    { "ref": "124-is-number@3.0.0", "dependsOn": ["125-kind-of@3.2.2"] },
+    { "ref": "125-kind-of@3.2.2", "dependsOn": ["126-is-buffer@1.1.6"] },
+    { "ref": "126-is-buffer@1.1.6" },
+    { "ref": "127-repeat-string@1.6.1" },
+    {
+      "ref": "128-to-regex-range@2.1.1",
+      "dependsOn": ["124-is-number@3.0.0", "127-repeat-string@1.6.1"]
+    },
+    { "ref": "129-isobject@3.0.1" },
+    { "ref": "130-repeat-element@1.1.3" },
+    {
+      "ref": "131-snapdragon@0.8.2",
+      "dependsOn": [
+        "132-base@0.11.2",
+        "6-debug@2.6.9",
+        "158-define-property@0.2.5",
+        "121-extend-shallow@2.0.1",
+        "174-map-cache@0.2.2",
+        "175-source-map@0.5.7",
+        "176-source-map-resolve@0.5.2",
+        "182-use@3.1.1"
+      ]
+    },
+    {
+      "ref": "132-base@0.11.2",
+      "dependsOn": [
+        "133-cache-base@1.0.1",
+        "157-class-utils@0.3.6",
+        "137-component-emitter@1.2.1",
+        "166-define-property@1.0.0",
+        "129-isobject@3.0.1",
+        "171-mixin-deep@1.3.1",
+        "173-pascalcase@0.1.1"
+      ]
+    },
+    {
+      "ref": "133-cache-base@1.0.1",
+      "dependsOn": [
+        "134-collection-visit@1.0.0",
+        "137-component-emitter@1.2.1",
+        "138-get-value@2.0.6",
+        "139-has-value@1.0.0",
+        "129-isobject@3.0.1",
+        "142-set-value@2.0.0",
+        "148-to-object-path@0.3.0",
+        "149-union-value@1.0.0",
+        "152-unset-value@1.0.0"
+      ]
+    },
+    {
+      "ref": "134-collection-visit@1.0.0",
+      "dependsOn": ["135-map-visit@1.0.0", "136-object-visit@1.0.1"]
+    },
+    { "ref": "135-map-visit@1.0.0", "dependsOn": ["136-object-visit@1.0.1"] },
+    { "ref": "136-object-visit@1.0.1", "dependsOn": ["129-isobject@3.0.1"] },
+    { "ref": "137-component-emitter@1.2.1" },
+    { "ref": "138-get-value@2.0.6" },
+    {
+      "ref": "139-has-value@1.0.0",
+      "dependsOn": [
+        "138-get-value@2.0.6",
+        "140-has-values@1.0.0",
+        "129-isobject@3.0.1"
+      ]
+    },
+    {
+      "ref": "140-has-values@1.0.0",
+      "dependsOn": ["124-is-number@3.0.0", "141-kind-of@4.0.0"]
+    },
+    { "ref": "141-kind-of@4.0.0", "dependsOn": ["126-is-buffer@1.1.6"] },
+    {
+      "ref": "142-set-value@2.0.0",
+      "dependsOn": [
+        "121-extend-shallow@2.0.1",
+        "122-is-extendable@0.1.1",
+        "143-is-plain-object@2.0.4",
+        "144-split-string@3.1.0"
+      ]
+    },
+    { "ref": "143-is-plain-object@2.0.4", "dependsOn": ["129-isobject@3.0.1"] },
+    {
+      "ref": "144-split-string@3.1.0",
+      "dependsOn": ["145-extend-shallow@3.0.2"]
+    },
+    {
+      "ref": "145-extend-shallow@3.0.2",
+      "dependsOn": ["146-assign-symbols@1.0.0", "147-is-extendable@1.0.1"]
+    },
+    { "ref": "146-assign-symbols@1.0.0" },
+    {
+      "ref": "147-is-extendable@1.0.1",
+      "dependsOn": ["143-is-plain-object@2.0.4"]
+    },
+    { "ref": "148-to-object-path@0.3.0", "dependsOn": ["125-kind-of@3.2.2"] },
+    {
+      "ref": "149-union-value@1.0.0",
+      "dependsOn": [
+        "150-arr-union@3.1.0",
+        "138-get-value@2.0.6",
+        "122-is-extendable@0.1.1",
+        "151-set-value@0.4.3"
+      ]
+    },
+    { "ref": "150-arr-union@3.1.0" },
+    {
+      "ref": "151-set-value@0.4.3",
+      "dependsOn": [
+        "121-extend-shallow@2.0.1",
+        "122-is-extendable@0.1.1",
+        "143-is-plain-object@2.0.4",
+        "148-to-object-path@0.3.0"
+      ]
+    },
+    {
+      "ref": "152-unset-value@1.0.0",
+      "dependsOn": ["153-has-value@0.3.1", "129-isobject@3.0.1"]
+    },
+    {
+      "ref": "153-has-value@0.3.1",
+      "dependsOn": [
+        "138-get-value@2.0.6",
+        "154-has-values@0.1.4",
+        "155-isobject@2.1.0"
+      ]
+    },
+    { "ref": "154-has-values@0.1.4" },
+    { "ref": "155-isobject@2.1.0", "dependsOn": ["156-isarray@1.0.0"] },
+    { "ref": "156-isarray@1.0.0" },
+    {
+      "ref": "157-class-utils@0.3.6",
+      "dependsOn": [
+        "150-arr-union@3.1.0",
+        "158-define-property@0.2.5",
+        "129-isobject@3.0.1",
+        "163-static-extend@0.1.2"
+      ]
+    },
+    {
+      "ref": "158-define-property@0.2.5",
+      "dependsOn": ["159-is-descriptor@0.1.6"]
+    },
+    {
+      "ref": "159-is-descriptor@0.1.6",
+      "dependsOn": [
+        "160-is-accessor-descriptor@0.1.6",
+        "161-is-data-descriptor@0.1.4",
+        "162-kind-of@5.1.0"
+      ]
+    },
+    {
+      "ref": "160-is-accessor-descriptor@0.1.6",
+      "dependsOn": ["125-kind-of@3.2.2"]
+    },
+    {
+      "ref": "161-is-data-descriptor@0.1.4",
+      "dependsOn": ["125-kind-of@3.2.2"]
+    },
+    { "ref": "162-kind-of@5.1.0" },
+    {
+      "ref": "163-static-extend@0.1.2",
+      "dependsOn": ["158-define-property@0.2.5", "164-object-copy@0.1.0"]
+    },
+    {
+      "ref": "164-object-copy@0.1.0",
+      "dependsOn": [
+        "165-copy-descriptor@0.1.1",
+        "158-define-property@0.2.5",
+        "125-kind-of@3.2.2"
+      ]
+    },
+    { "ref": "165-copy-descriptor@0.1.1" },
+    {
+      "ref": "166-define-property@1.0.0",
+      "dependsOn": ["167-is-descriptor@1.0.2"]
+    },
+    {
+      "ref": "167-is-descriptor@1.0.2",
+      "dependsOn": [
+        "168-is-accessor-descriptor@1.0.0",
+        "170-is-data-descriptor@1.0.0",
+        "169-kind-of@6.0.2"
+      ]
+    },
+    {
+      "ref": "168-is-accessor-descriptor@1.0.0",
+      "dependsOn": ["169-kind-of@6.0.2"]
+    },
+    { "ref": "169-kind-of@6.0.2" },
+    {
+      "ref": "170-is-data-descriptor@1.0.0",
+      "dependsOn": ["169-kind-of@6.0.2"]
+    },
+    {
+      "ref": "171-mixin-deep@1.3.1",
+      "dependsOn": ["172-for-in@1.0.2", "147-is-extendable@1.0.1"]
+    },
+    { "ref": "172-for-in@1.0.2" },
+    { "ref": "173-pascalcase@0.1.1" },
+    { "ref": "174-map-cache@0.2.2" },
+    { "ref": "175-source-map@0.5.7" },
+    {
+      "ref": "176-source-map-resolve@0.5.2",
+      "dependsOn": [
+        "177-atob@2.1.2",
+        "178-decode-uri-component@0.2.0",
+        "179-resolve-url@0.2.1",
+        "180-source-map-url@0.4.0",
+        "181-urix@0.1.0"
+      ]
+    },
+    { "ref": "177-atob@2.1.2" },
+    { "ref": "178-decode-uri-component@0.2.0" },
+    { "ref": "179-resolve-url@0.2.1" },
+    { "ref": "180-source-map-url@0.4.0" },
+    { "ref": "181-urix@0.1.0" },
+    { "ref": "182-use@3.1.1" },
+    {
+      "ref": "183-snapdragon-node@2.1.1",
+      "dependsOn": [
+        "166-define-property@1.0.0",
+        "129-isobject@3.0.1",
+        "184-snapdragon-util@3.0.1"
+      ]
+    },
+    { "ref": "184-snapdragon-util@3.0.1", "dependsOn": ["125-kind-of@3.2.2"] },
+    {
+      "ref": "185-to-regex@3.0.2",
+      "dependsOn": [
+        "186-define-property@2.0.2",
+        "145-extend-shallow@3.0.2",
+        "187-regex-not@1.0.2",
+        "188-safe-regex@1.1.0"
+      ]
+    },
+    {
+      "ref": "186-define-property@2.0.2",
+      "dependsOn": ["167-is-descriptor@1.0.2", "129-isobject@3.0.1"]
+    },
+    {
+      "ref": "187-regex-not@1.0.2",
+      "dependsOn": ["145-extend-shallow@3.0.2", "188-safe-regex@1.1.0"]
+    },
+    { "ref": "188-safe-regex@1.1.0", "dependsOn": ["189-ret@0.1.15"] },
+    { "ref": "189-ret@0.1.15" },
+    {
+      "ref": "190-extglob@2.0.4",
+      "dependsOn": [
+        "118-array-unique@0.3.2",
+        "166-define-property@1.0.0",
+        "191-expand-brackets@2.1.4",
+        "121-extend-shallow@2.0.1",
+        "193-fragment-cache@0.2.1",
+        "187-regex-not@1.0.2",
+        "131-snapdragon@0.8.2",
+        "185-to-regex@3.0.2"
+      ]
+    },
+    {
+      "ref": "191-expand-brackets@2.1.4",
+      "dependsOn": [
+        "6-debug@2.6.9",
+        "158-define-property@0.2.5",
+        "121-extend-shallow@2.0.1",
+        "192-posix-character-classes@0.1.1",
+        "187-regex-not@1.0.2",
+        "131-snapdragon@0.8.2",
+        "185-to-regex@3.0.2"
+      ]
+    },
+    { "ref": "192-posix-character-classes@0.1.1" },
+    { "ref": "193-fragment-cache@0.2.1", "dependsOn": ["174-map-cache@0.2.2"] },
+    {
+      "ref": "194-nanomatch@1.2.13",
+      "dependsOn": [
+        "117-arr-diff@4.0.0",
+        "118-array-unique@0.3.2",
+        "186-define-property@2.0.2",
+        "145-extend-shallow@3.0.2",
+        "193-fragment-cache@0.2.1",
+        "195-is-windows@1.0.2",
+        "169-kind-of@6.0.2",
+        "196-object.pick@1.3.0",
+        "187-regex-not@1.0.2",
+        "131-snapdragon@0.8.2",
+        "185-to-regex@3.0.2"
+      ]
+    },
+    { "ref": "195-is-windows@1.0.2" },
+    { "ref": "196-object.pick@1.3.0", "dependsOn": ["129-isobject@3.0.1"] },
+    {
+      "ref": "197-normalize-path@2.1.1",
+      "dependsOn": ["198-remove-trailing-separator@1.1.0"]
+    },
+    { "ref": "198-remove-trailing-separator@1.1.0" },
+    { "ref": "199-async-each@1.0.3" },
+    {
+      "ref": "200-glob-parent@3.1.0",
+      "dependsOn": ["201-is-glob@3.1.0", "203-path-dirname@1.0.2"]
+    },
+    { "ref": "201-is-glob@3.1.0", "dependsOn": ["202-is-extglob@2.1.1"] },
+    { "ref": "202-is-extglob@2.1.1" },
+    { "ref": "203-path-dirname@1.0.2" },
+    {
+      "ref": "204-is-binary-path@1.0.1",
+      "dependsOn": ["205-binary-extensions@1.13.1"]
+    },
+    { "ref": "205-binary-extensions@1.13.1" },
+    { "ref": "206-is-glob@4.0.1", "dependsOn": ["202-is-extglob@2.1.1"] },
+    { "ref": "207-normalize-path@3.0.0" },
+    {
+      "ref": "208-readdirp@2.2.1",
+      "dependsOn": [
+        "209-graceful-fs@4.1.15",
+        "116-micromatch@3.1.10",
+        "210-readable-stream@2.3.6"
+      ]
+    },
+    { "ref": "209-graceful-fs@4.1.15" },
+    {
+      "ref": "210-readable-stream@2.3.6",
+      "dependsOn": [
+        "211-core-util-is@1.0.2",
+        "10-inherits@2.0.3",
+        "156-isarray@1.0.0",
+        "212-process-nextick-args@2.0.0",
+        "56-safe-buffer@5.1.2",
+        "213-string_decoder@1.1.1",
+        "214-util-deprecate@1.0.2"
+      ]
+    },
+    { "ref": "211-core-util-is@1.0.2" },
+    { "ref": "212-process-nextick-args@2.0.0" },
+    {
+      "ref": "213-string_decoder@1.1.1",
+      "dependsOn": ["56-safe-buffer@5.1.2"]
+    },
+    { "ref": "214-util-deprecate@1.0.2" },
+    { "ref": "215-upath@1.1.2" },
+    {
+      "ref": "216-fsevents@1.2.9",
+      "dependsOn": ["217-nan@2.14.0", "218-node-pre-gyp@0.12.0"]
+    },
+    { "ref": "217-nan@2.14.0" },
+    {
+      "ref": "218-node-pre-gyp@0.12.0",
+      "dependsOn": [
+        "219-detect-libc@1.0.3",
+        "93-mkdirp@0.5.1",
+        "220-needle@2.3.0",
+        "225-nopt@4.0.1",
+        "230-npm-packlist@1.4.1",
+        "233-npmlog@4.1.2",
+        "250-rc@1.2.8",
+        "96-rimraf@2.6.3",
+        "254-semver@5.7.0",
+        "255-tar@4.4.8"
+      ]
+    },
+    { "ref": "219-detect-libc@1.0.3" },
+    {
+      "ref": "220-needle@2.3.0",
+      "dependsOn": ["221-debug@4.1.1", "223-iconv-lite@0.4.24", "224-sax@1.2.4"]
+    },
+    { "ref": "221-debug@4.1.1", "dependsOn": ["222-ms@2.1.1"] },
+    { "ref": "222-ms@2.1.1" },
+    { "ref": "223-iconv-lite@0.4.24", "dependsOn": ["14-safer-buffer@2.1.2"] },
+    { "ref": "224-sax@1.2.4" },
+    {
+      "ref": "225-nopt@4.0.1",
+      "dependsOn": ["226-abbrev@1.1.1", "227-osenv@0.1.5"]
+    },
+    { "ref": "226-abbrev@1.1.1" },
+    {
+      "ref": "227-osenv@0.1.5",
+      "dependsOn": ["228-os-homedir@1.0.2", "229-os-tmpdir@1.0.2"]
+    },
+    { "ref": "228-os-homedir@1.0.2" },
+    { "ref": "229-os-tmpdir@1.0.2" },
+    {
+      "ref": "230-npm-packlist@1.4.1",
+      "dependsOn": ["231-ignore-walk@3.0.1", "232-npm-bundled@1.0.6"]
+    },
+    { "ref": "231-ignore-walk@3.0.1", "dependsOn": ["102-minimatch@3.0.4"] },
+    { "ref": "232-npm-bundled@1.0.6" },
+    {
+      "ref": "233-npmlog@4.1.2",
+      "dependsOn": [
+        "234-are-we-there-yet@1.1.5",
+        "236-console-control-strings@1.1.0",
+        "237-gauge@2.7.4",
+        "249-set-blocking@2.0.0"
+      ]
+    },
+    {
+      "ref": "234-are-we-there-yet@1.1.5",
+      "dependsOn": ["235-delegates@1.0.0", "210-readable-stream@2.3.6"]
+    },
+    { "ref": "235-delegates@1.0.0" },
+    { "ref": "236-console-control-strings@1.1.0" },
+    {
+      "ref": "237-gauge@2.7.4",
+      "dependsOn": [
+        "238-aproba@1.2.0",
+        "236-console-control-strings@1.1.0",
+        "239-has-unicode@2.0.1",
+        "240-object-assign@4.1.1",
+        "241-signal-exit@3.0.2",
+        "242-string-width@1.0.2",
+        "246-strip-ansi@3.0.1",
+        "248-wide-align@1.1.3"
+      ]
+    },
+    { "ref": "238-aproba@1.2.0" },
+    { "ref": "239-has-unicode@2.0.1" },
+    { "ref": "240-object-assign@4.1.1" },
+    { "ref": "241-signal-exit@3.0.2" },
+    {
+      "ref": "242-string-width@1.0.2",
+      "dependsOn": [
+        "243-code-point-at@1.1.0",
+        "244-is-fullwidth-code-point@1.0.0",
+        "246-strip-ansi@3.0.1"
+      ]
+    },
+    { "ref": "243-code-point-at@1.1.0" },
+    {
+      "ref": "244-is-fullwidth-code-point@1.0.0",
+      "dependsOn": ["245-number-is-nan@1.0.1"]
+    },
+    { "ref": "245-number-is-nan@1.0.1" },
+    { "ref": "246-strip-ansi@3.0.1", "dependsOn": ["247-ansi-regex@2.1.1"] },
+    { "ref": "247-ansi-regex@2.1.1" },
+    { "ref": "248-wide-align@1.1.3", "dependsOn": ["242-string-width@1.0.2"] },
+    { "ref": "249-set-blocking@2.0.0" },
+    {
+      "ref": "250-rc@1.2.8",
+      "dependsOn": [
+        "251-deep-extend@0.6.0",
+        "86-ini@1.3.5",
+        "252-minimist@1.2.0",
+        "253-strip-json-comments@2.0.1"
+      ]
+    },
+    { "ref": "251-deep-extend@0.6.0" },
+    { "ref": "252-minimist@1.2.0" },
+    { "ref": "253-strip-json-comments@2.0.1" },
+    { "ref": "254-semver@5.7.0" },
+    {
+      "ref": "255-tar@4.4.8",
+      "dependsOn": [
+        "256-chownr@1.1.1",
+        "257-fs-minipass@1.2.5",
+        "258-minipass@2.3.5",
+        "260-minizlib@1.2.1",
+        "93-mkdirp@0.5.1",
+        "56-safe-buffer@5.1.2",
+        "259-yallist@3.0.3"
+      ]
+    },
+    { "ref": "256-chownr@1.1.1" },
+    { "ref": "257-fs-minipass@1.2.5", "dependsOn": ["258-minipass@2.3.5"] },
+    {
+      "ref": "258-minipass@2.3.5",
+      "dependsOn": ["56-safe-buffer@5.1.2", "259-yallist@3.0.3"]
+    },
+    { "ref": "259-yallist@3.0.3" },
+    { "ref": "260-minizlib@1.2.1", "dependsOn": ["258-minipass@2.3.5"] },
+    { "ref": "261-ps-tree@0.0.3", "dependsOn": ["262-event-stream@0.5.3"] },
+    { "ref": "262-event-stream@0.5.3", "dependsOn": ["263-optimist@0.2.8"] },
+    { "ref": "263-optimist@0.2.8", "dependsOn": ["89-wordwrap@0.0.3"] },
+    {
+      "ref": "264-utile@0.3.0",
+      "dependsOn": [
+        "265-async@0.9.2",
+        "91-deep-equal@0.2.2",
+        "92-i@0.3.6",
+        "93-mkdirp@0.5.1",
+        "266-ncp@1.0.1",
+        "96-rimraf@2.6.3"
+      ]
+    },
+    { "ref": "265-async@0.9.2" },
+    { "ref": "266-ncp@1.0.1" },
+    {
+      "ref": "267-nconf@0.10.0",
+      "dependsOn": [
+        "68-async@1.5.2",
+        "86-ini@1.3.5",
+        "268-secure-keys@1.0.0",
+        "269-yargs@3.32.0"
+      ]
+    },
+    { "ref": "268-secure-keys@1.0.0" },
+    {
+      "ref": "269-yargs@3.32.0",
+      "dependsOn": [
+        "270-camelcase@2.1.1",
+        "271-cliui@3.2.0",
+        "273-decamelize@1.2.0",
+        "274-os-locale@1.4.0",
+        "242-string-width@1.0.2",
+        "277-window-size@0.1.4",
+        "278-y18n@3.2.1"
+      ]
+    },
+    { "ref": "270-camelcase@2.1.1" },
+    {
+      "ref": "271-cliui@3.2.0",
+      "dependsOn": [
+        "242-string-width@1.0.2",
+        "246-strip-ansi@3.0.1",
+        "272-wrap-ansi@2.1.0"
+      ]
+    },
+    {
+      "ref": "272-wrap-ansi@2.1.0",
+      "dependsOn": ["242-string-width@1.0.2", "246-strip-ansi@3.0.1"]
+    },
+    { "ref": "273-decamelize@1.2.0" },
+    { "ref": "274-os-locale@1.4.0", "dependsOn": ["275-lcid@1.0.0"] },
+    { "ref": "275-lcid@1.0.0", "dependsOn": ["276-invert-kv@1.0.0"] },
+    { "ref": "276-invert-kv@1.0.0" },
+    { "ref": "277-window-size@0.1.4" },
+    { "ref": "278-y18n@3.2.1" },
+    {
+      "ref": "279-nssocket@0.6.0",
+      "dependsOn": ["83-eventemitter2@0.4.14", "280-lazy@1.0.11"]
+    },
+    { "ref": "280-lazy@1.0.11" },
+    {
+      "ref": "281-optimist@0.6.1",
+      "dependsOn": ["88-minimist@0.0.10", "89-wordwrap@0.0.3"]
+    },
+    { "ref": "282-path-is-absolute@2.0.0" },
+    {
+      "ref": "283-prettyjson@1.2.1",
+      "dependsOn": ["284-colors@1.4.0", "285-minimist@1.2.5"]
+    },
+    { "ref": "284-colors@1.4.0" },
+    { "ref": "285-minimist@1.2.5" },
+    {
+      "ref": "286-shush@1.0.0",
+      "dependsOn": ["287-caller@0.0.1", "294-strip-json-comments@0.1.3"]
+    },
+    { "ref": "287-caller@0.0.1", "dependsOn": ["288-tape@2.3.3"] },
+    {
+      "ref": "288-tape@2.3.3",
+      "dependsOn": [
+        "289-deep-equal@0.1.2",
+        "290-defined@0.0.0",
+        "10-inherits@2.0.3",
+        "291-jsonify@0.0.0",
+        "292-resumer@0.0.0",
+        "293-through@2.3.8"
+      ]
+    },
+    { "ref": "289-deep-equal@0.1.2" },
+    { "ref": "290-defined@0.0.0" },
+    { "ref": "291-jsonify@0.0.0" },
+    { "ref": "292-resumer@0.0.0", "dependsOn": ["293-through@2.3.8"] },
+    { "ref": "293-through@2.3.8" },
+    { "ref": "294-strip-json-comments@0.1.3" },
+    {
+      "ref": "295-helmet@2.3.0",
+      "dependsOn": [
+        "296-connect@3.4.1",
+        "301-dns-prefetch-control@0.1.0",
+        "36-dont-sniff-mimetype@1.0.0",
+        "302-frameguard@2.0.0",
+        "303-helmet-csp@1.2.2",
+        "309-hide-powered-by@1.0.0",
+        "310-hpkp@1.2.0",
+        "311-hsts@1.0.0",
+        "312-ienoopen@1.0.0",
+        "313-nocache@1.0.1",
+        "315-referrer-policy@1.0.0",
+        "316-x-xss-protection@1.0.0"
+      ]
+    },
+    {
+      "ref": "296-connect@3.4.1",
+      "dependsOn": [
+        "297-debug@2.2.0",
+        "299-finalhandler@0.4.1",
+        "46-parseurl@1.3.2",
+        "300-utils-merge@1.0.0"
+      ]
+    },
+    { "ref": "297-debug@2.2.0", "dependsOn": ["298-ms@0.7.1"] },
+    { "ref": "298-ms@0.7.1" },
+    {
+      "ref": "299-finalhandler@0.4.1",
+      "dependsOn": [
+        "297-debug@2.2.0",
+        "43-escape-html@1.0.3",
+        "15-on-finished@2.3.0",
+        "19-unpipe@1.0.0"
+      ]
+    },
+    { "ref": "300-utils-merge@1.0.0" },
+    { "ref": "301-dns-prefetch-control@0.1.0" },
+    { "ref": "302-frameguard@2.0.0" },
+    {
+      "ref": "303-helmet-csp@1.2.2",
+      "dependsOn": [
+        "304-camelize@1.0.0",
+        "305-content-security-policy-builder@1.0.0",
+        "307-lodash.reduce@4.5.0",
+        "308-platform@1.3.1"
+      ]
+    },
+    { "ref": "304-camelize@1.0.0" },
+    {
+      "ref": "305-content-security-policy-builder@1.0.0",
+      "dependsOn": ["306-dashify@0.2.2"]
+    },
+    { "ref": "306-dashify@0.2.2" },
+    { "ref": "307-lodash.reduce@4.5.0" },
+    { "ref": "308-platform@1.3.1" },
+    { "ref": "309-hide-powered-by@1.0.0" },
+    { "ref": "310-hpkp@1.2.0" },
+    { "ref": "311-hsts@1.0.0", "dependsOn": ["211-core-util-is@1.0.2"] },
+    { "ref": "312-ienoopen@1.0.0" },
+    { "ref": "313-nocache@1.0.1", "dependsOn": ["314-depd@1.1.0"] },
+    { "ref": "314-depd@1.1.0" },
+    { "ref": "315-referrer-policy@1.0.0" },
+    { "ref": "316-x-xss-protection@1.0.0" },
+    { "ref": "317-marked@0.3.5" },
+    {
+      "ref": "318-mongodb@2.2.36",
+      "dependsOn": [
+        "319-es6-promise@3.2.1",
+        "320-mongodb-core@2.1.20",
+        "325-readable-stream@2.2.7"
+      ]
+    },
+    { "ref": "319-es6-promise@3.2.1" },
+    {
+      "ref": "320-mongodb-core@2.1.20",
+      "dependsOn": ["321-bson@1.0.9", "322-require_optional@1.0.1"]
+    },
+    { "ref": "321-bson@1.0.9" },
+    {
+      "ref": "322-require_optional@1.0.1",
+      "dependsOn": ["323-resolve-from@2.0.0", "324-semver@5.6.0"]
+    },
+    { "ref": "323-resolve-from@2.0.0" },
+    { "ref": "324-semver@5.6.0" },
+    {
+      "ref": "325-readable-stream@2.2.7",
+      "dependsOn": [
+        "326-buffer-shims@1.0.0",
+        "211-core-util-is@1.0.2",
+        "10-inherits@2.0.3",
+        "156-isarray@1.0.0",
+        "327-process-nextick-args@1.0.7",
+        "328-string_decoder@1.0.3",
+        "214-util-deprecate@1.0.2"
+      ]
+    },
+    { "ref": "326-buffer-shims@1.0.0" },
+    { "ref": "327-process-nextick-args@1.0.7" },
+    {
+      "ref": "328-string_decoder@1.0.3",
+      "dependsOn": ["56-safe-buffer@5.1.2"]
+    },
+    {
+      "ref": "329-needle@2.2.4",
+      "dependsOn": ["6-debug@2.6.9", "13-iconv-lite@0.4.23", "224-sax@1.2.4"]
+    },
+    { "ref": "330-node-esapi@0.0.1" },
+    {
+      "ref": "331-serve-favicon@2.5.0",
+      "dependsOn": [
+        "44-etag@1.8.1",
+        "48-fresh@0.5.2",
+        "222-ms@2.1.1",
+        "46-parseurl@1.3.2",
+        "332-safe-buffer@5.1.1"
+      ]
+    },
+    { "ref": "332-safe-buffer@5.1.1" },
+    {
+      "ref": "333-swig@1.4.2",
+      "dependsOn": ["281-optimist@0.6.1", "334-uglify-js@2.4.24"]
+    },
+    {
+      "ref": "334-uglify-js@2.4.24",
+      "dependsOn": [
+        "73-async@0.2.10",
+        "335-source-map@0.1.34",
+        "337-uglify-to-browserify@1.0.2",
+        "338-yargs@3.5.4"
+      ]
+    },
+    { "ref": "335-source-map@0.1.34", "dependsOn": ["336-amdefine@1.0.1"] },
+    { "ref": "336-amdefine@1.0.1" },
+    { "ref": "337-uglify-to-browserify@1.0.2" },
+    {
+      "ref": "338-yargs@3.5.4",
+      "dependsOn": [
+        "339-camelcase@1.2.1",
+        "273-decamelize@1.2.0",
+        "340-window-size@0.1.0",
+        "341-wordwrap@0.0.2"
+      ]
+    },
+    { "ref": "339-camelcase@1.2.1" },
+    { "ref": "340-window-size@0.1.0" },
+    { "ref": "341-wordwrap@0.0.2" },
+    { "ref": "342-underscore@1.9.1" }
+  ]
+}
